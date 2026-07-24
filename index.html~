@@ -1,0 +1,2177 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)https://revoke.cash/ -->
+<html lang="en"
+  class="outfitrevoke_158681da-module__THdKpG__variable jetbrains_mono_6104e6b7-module__s6uLTa__variable dark"
+  data-qb-installed="true" style="">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preload" href="https://revoke.cash/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2" as="font"
+    crossorigin="" type="font/woff2">
+  <link rel="preload" href="https://revoke.cash/_next/static/media/Outfit_Revoke_SemiBold-s.p.3_7-dmzquguco.ttf"
+    as="font" crossorigin="" type="font/ttf">
+  <link rel="preload" as="image" href="revoke-wordmark-black.svg" fetchpriority="high">
+  <link rel="preload" as="image"
+    imagesrcset="/_next/image?url=%2Fassets%2Fimages%2Flanding%2Fhero.jpg&amp;w=1200&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Flanding%2Fhero.jpg&amp;w=3840&amp;q=75 2x"
+    fetchpriority="high">
+  <link rel="stylesheet" href="0d_pbpk2rljg5.css" data-precedence="next">
+  <link rel="stylesheet" href="150d484m2br_v.css" data-precedence="next">
+  <link rel="stylesheet" href="3mgm-rli-iy_s.css" data-precedence="next">
+  <link rel="preload" as="script" fetchpriority="low" href="0t2sxhvvlfygq.js">
+  <link rel="preload" href="sa-v11.js" as="script">
+  <meta name="next-size-adjust" content="">
+  <title>Revoke Your Token Approvals on Over 100 Networks | Revoke.cash</title>
+  <meta name="description"
+    content="Take back control of your wallet and stay safe by revoking token approvals and permissions you granted on Ethereum and over 100 other networks.">
+  <meta name="application-name" content="Revoke.cash">
+  <link rel="manifest" href="https://revoke.cash/manifest.json">
+  <meta name="generator" content="Next.js">
+  <meta property="og:title" content="Revoke Your Token Approvals on Over 100 Networks | Revoke.cash">
+  <meta property="og:description"
+    content="Take back control of your wallet and stay safe by revoking token approvals and permissions you granted on Ethereum and over 100 other networks.">
+  <meta property="og:image" content="https://revoke.cash/opengraph-image.jpg?opengraph-image.0sj225io45udp.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Revoke Your Token Approvals on Over 100 Networks | Revoke.cash">
+  <meta name="twitter:description"
+    content="Take back control of your wallet and stay safe by revoking token approvals and permissions you granted on Ethereum and over 100 other networks.">
+  <meta name="twitter:image" content="https://revoke.cash/opengraph-image.jpg?opengraph-image.0sj225io45udp.jpg">
+  <meta name="twitter:image:type" content="image/jpeg">
+  <meta name="twitter:image:width" content="1200">
+  <meta name="twitter:image:height" content="630">
+  <link rel="icon" href="https://revoke.cash/favicon.ico?favicon.0bp3m9-9_rmui.ico" sizes="64x64" type="image/x-icon">
+  <link rel="icon" href="https://revoke.cash/icon.png?icon.1n_a93ehop10z.png" sizes="180x180" type="image/png">
+  <link rel="apple-touch-icon" href="https://revoke.cash/apple-icon.png?apple-icon.1n_a93ehop10z.png" sizes="180x180"
+    type="image/png">
+  <style>
+    :root {
+      --toastify-color-light: #fff;
+      --toastify-color-dark: #121212;
+      --toastify-color-info: #3498db;
+      --toastify-color-success: #07bc0c;
+      --toastify-color-warning: #f1c40f;
+      --toastify-color-error: hsl(6, 78%, 57%);
+      --toastify-color-transparent: rgba(255, 255, 255, 0.7);
+      --toastify-icon-color-info: var(--toastify-color-info);
+      --toastify-icon-color-success: var(--toastify-color-success);
+      --toastify-icon-color-warning: var(--toastify-color-warning);
+      --toastify-icon-color-error: var(--toastify-color-error);
+      --toastify-container-width: fit-content;
+      --toastify-toast-width: 320px;
+      --toastify-toast-offset: 16px;
+      --toastify-toast-top: max(var(--toastify-toast-offset), env(safe-area-inset-top));
+      --toastify-toast-right: max(var(--toastify-toast-offset), env(safe-area-inset-right));
+      --toastify-toast-left: max(var(--toastify-toast-offset), env(safe-area-inset-left));
+      --toastify-toast-bottom: max(var(--toastify-toast-offset), env(safe-area-inset-bottom));
+      --toastify-toast-background: #fff;
+      --toastify-toast-padding: 14px;
+      --toastify-toast-min-height: 64px;
+      --toastify-toast-max-height: 800px;
+      --toastify-toast-bd-radius: 6px;
+      --toastify-toast-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      --toastify-font-family: sans-serif;
+      --toastify-z-index: 9999;
+      --toastify-text-color-light: #757575;
+      --toastify-text-color-dark: #fff;
+      /* Used only for colored theme */
+      --toastify-text-color-info: #fff;
+      --toastify-text-color-success: #fff;
+      --toastify-text-color-warning: #fff;
+      --toastify-text-color-error: #fff;
+      --toastify-spinner-color: #616161;
+      --toastify-spinner-color-empty-area: #e0e0e0;
+      --toastify-color-progress-light: linear-gradient(to right, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55);
+      --toastify-color-progress-dark: #bb86fc;
+      --toastify-color-progress-info: var(--toastify-color-info);
+      --toastify-color-progress-success: var(--toastify-color-success);
+      --toastify-color-progress-warning: var(--toastify-color-warning);
+      --toastify-color-progress-error: var(--toastify-color-error);
+      /* used to control the opacity of the progress trail */
+      --toastify-color-progress-bgo: 0.2;
+    }
+
+    .Toastify__toast-container {
+      z-index: var(--toastify-z-index);
+      -webkit-transform: translate3d(0, 0, var(--toastify-z-index));
+      position: fixed;
+      width: var(--toastify-container-width);
+      box-sizing: border-box;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .Toastify__toast-container--top-left {
+      top: var(--toastify-toast-top);
+      left: var(--toastify-toast-left);
+    }
+
+    .Toastify__toast-container--top-center {
+      top: var(--toastify-toast-top);
+      left: 50%;
+      transform: translateX(-50%);
+      align-items: center;
+    }
+
+    .Toastify__toast-container--top-right {
+      top: var(--toastify-toast-top);
+      right: var(--toastify-toast-right);
+      align-items: end;
+    }
+
+    .Toastify__toast-container--bottom-left {
+      bottom: var(--toastify-toast-bottom);
+      left: var(--toastify-toast-left);
+    }
+
+    .Toastify__toast-container--bottom-center {
+      bottom: var(--toastify-toast-bottom);
+      left: 50%;
+      transform: translateX(-50%);
+      align-items: center;
+    }
+
+    .Toastify__toast-container--bottom-right {
+      bottom: var(--toastify-toast-bottom);
+      right: var(--toastify-toast-right);
+      align-items: end;
+    }
+
+    .Toastify__toast {
+      --y: 0px;
+      position: relative;
+      touch-action: none;
+      width: var(--toastify-toast-width);
+      min-height: var(--toastify-toast-min-height);
+      box-sizing: border-box;
+      margin-bottom: 1rem;
+      padding: var(--toastify-toast-padding);
+      border-radius: var(--toastify-toast-bd-radius);
+      box-shadow: var(--toastify-toast-shadow);
+      max-height: var(--toastify-toast-max-height);
+      font-family: var(--toastify-font-family);
+      /* webkit only issue #791 */
+      z-index: 0;
+      /* inner swag */
+      display: flex;
+      flex: 1 auto;
+      align-items: center;
+      word-break: break-word;
+    }
+
+    @media only screen and (max-width: 480px) {
+      .Toastify__toast-container {
+        width: 100vw;
+        left: env(safe-area-inset-left);
+        margin: 0;
+      }
+
+      .Toastify__toast-container--top-left,
+      .Toastify__toast-container--top-center,
+      .Toastify__toast-container--top-right {
+        top: env(safe-area-inset-top);
+        transform: translateX(0);
+      }
+
+      .Toastify__toast-container--bottom-left,
+      .Toastify__toast-container--bottom-center,
+      .Toastify__toast-container--bottom-right {
+        bottom: env(safe-area-inset-bottom);
+        transform: translateX(0);
+      }
+
+      .Toastify__toast-container--rtl {
+        right: env(safe-area-inset-right);
+        left: initial;
+      }
+
+      .Toastify__toast {
+        --toastify-toast-width: 100%;
+        margin-bottom: 0;
+        border-radius: 0;
+      }
+    }
+
+    .Toastify__toast-container[data-stacked='true'] {
+      width: var(--toastify-toast-width);
+    }
+
+    @media only screen and (max-width: 480px) {
+      .Toastify__toast-container[data-stacked='true'] {
+        width: 100vw;
+      }
+    }
+
+    .Toastify__toast--stacked {
+      position: absolute;
+      width: 100%;
+      transform: translate3d(0, var(--y), 0) scale(var(--s));
+      transition: transform 0.3s;
+    }
+
+    .Toastify__toast--stacked[data-collapsed] .Toastify__toast-body,
+    .Toastify__toast--stacked[data-collapsed] .Toastify__close-button {
+      transition: opacity 0.1s;
+    }
+
+    .Toastify__toast--stacked[data-collapsed='false'] {
+      overflow: visible;
+    }
+
+    .Toastify__toast--stacked[data-collapsed='true']:not(:last-child)>* {
+      opacity: 0;
+    }
+
+    .Toastify__toast--stacked:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: calc(var(--g) * 1px);
+      bottom: 100%;
+    }
+
+    .Toastify__toast--stacked[data-pos='top'] {
+      top: 0;
+    }
+
+    .Toastify__toast--stacked[data-pos='bot'] {
+      bottom: 0;
+    }
+
+    .Toastify__toast--stacked[data-pos='bot'].Toastify__toast--stacked:before {
+      transform-origin: top;
+    }
+
+    .Toastify__toast--stacked[data-pos='top'].Toastify__toast--stacked:before {
+      transform-origin: bottom;
+    }
+
+    .Toastify__toast--stacked:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      transform: scaleY(3);
+      z-index: -1;
+    }
+
+    .Toastify__toast--rtl {
+      direction: rtl;
+    }
+
+    .Toastify__toast--close-on-click {
+      cursor: pointer;
+    }
+
+    .Toastify__toast-icon {
+      margin-inline-end: 10px;
+      width: 22px;
+      flex-shrink: 0;
+      display: flex;
+    }
+
+    .Toastify--animate {
+      animation-fill-mode: both;
+      animation-duration: 0.5s;
+    }
+
+    .Toastify--animate-icon {
+      animation-fill-mode: both;
+      animation-duration: 0.3s;
+    }
+
+    .Toastify__toast-theme--dark {
+      background: var(--toastify-color-dark);
+      color: var(--toastify-text-color-dark);
+    }
+
+    .Toastify__toast-theme--light {
+      background: var(--toastify-color-light);
+      color: var(--toastify-text-color-light);
+    }
+
+    .Toastify__toast-theme--colored.Toastify__toast--default {
+      background: var(--toastify-color-light);
+      color: var(--toastify-text-color-light);
+    }
+
+    .Toastify__toast-theme--colored.Toastify__toast--info {
+      color: var(--toastify-text-color-info);
+      background: var(--toastify-color-info);
+    }
+
+    .Toastify__toast-theme--colored.Toastify__toast--success {
+      color: var(--toastify-text-color-success);
+      background: var(--toastify-color-success);
+    }
+
+    .Toastify__toast-theme--colored.Toastify__toast--warning {
+      color: var(--toastify-text-color-warning);
+      background: var(--toastify-color-warning);
+    }
+
+    .Toastify__toast-theme--colored.Toastify__toast--error {
+      color: var(--toastify-text-color-error);
+      background: var(--toastify-color-error);
+    }
+
+    .Toastify__progress-bar-theme--light {
+      background: var(--toastify-color-progress-light);
+    }
+
+    .Toastify__progress-bar-theme--dark {
+      background: var(--toastify-color-progress-dark);
+    }
+
+    .Toastify__progress-bar--info {
+      background: var(--toastify-color-progress-info);
+    }
+
+    .Toastify__progress-bar--success {
+      background: var(--toastify-color-progress-success);
+    }
+
+    .Toastify__progress-bar--warning {
+      background: var(--toastify-color-progress-warning);
+    }
+
+    .Toastify__progress-bar--error {
+      background: var(--toastify-color-progress-error);
+    }
+
+    .Toastify__progress-bar-theme--colored.Toastify__progress-bar--info,
+    .Toastify__progress-bar-theme--colored.Toastify__progress-bar--success,
+    .Toastify__progress-bar-theme--colored.Toastify__progress-bar--warning,
+    .Toastify__progress-bar-theme--colored.Toastify__progress-bar--error {
+      background: var(--toastify-color-transparent);
+    }
+
+    .Toastify__close-button {
+      color: #fff;
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      background: transparent;
+      outline: none;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      opacity: 0.7;
+      transition: 0.3s ease;
+      z-index: 1;
+    }
+
+    .Toastify__toast--rtl .Toastify__close-button {
+      left: 6px;
+      right: unset;
+    }
+
+    .Toastify__close-button--light {
+      color: #000;
+      opacity: 0.3;
+    }
+
+    .Toastify__close-button>svg {
+      fill: currentColor;
+      height: 16px;
+      width: 14px;
+    }
+
+    .Toastify__close-button:hover,
+    .Toastify__close-button:focus {
+      opacity: 1;
+    }
+
+    @keyframes Toastify__trackProgress {
+      0% {
+        transform: scaleX(1);
+      }
+
+      100% {
+        transform: scaleX(0);
+      }
+    }
+
+    .Toastify__progress-bar {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      opacity: 0.7;
+      transform-origin: left;
+    }
+
+    .Toastify__progress-bar--animated {
+      animation: Toastify__trackProgress linear 1 forwards;
+    }
+
+    .Toastify__progress-bar--controlled {
+      transition: transform 0.2s;
+    }
+
+    .Toastify__progress-bar--rtl {
+      right: 0;
+      left: initial;
+      transform-origin: right;
+      border-bottom-left-radius: initial;
+    }
+
+    .Toastify__progress-bar--wrp {
+      position: absolute;
+      overflow: hidden;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      border-bottom-left-radius: var(--toastify-toast-bd-radius);
+      border-bottom-right-radius: var(--toastify-toast-bd-radius);
+    }
+
+    .Toastify__progress-bar--wrp[data-hidden='true'] {
+      opacity: 0;
+    }
+
+    .Toastify__progress-bar--bg {
+      opacity: var(--toastify-color-progress-bgo);
+      width: 100%;
+      height: 100%;
+    }
+
+    .Toastify__spinner {
+      width: 20px;
+      height: 20px;
+      box-sizing: border-box;
+      border: 2px solid;
+      border-radius: 100%;
+      border-color: var(--toastify-spinner-color-empty-area);
+      border-right-color: var(--toastify-spinner-color);
+      animation: Toastify__spin 0.65s linear infinite;
+    }
+
+    @keyframes Toastify__bounceInRight {
+
+      from,
+      60%,
+      75%,
+      90%,
+      to {
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      }
+
+      from {
+        opacity: 0;
+        transform: translate3d(3000px, 0, 0);
+      }
+
+      60% {
+        opacity: 1;
+        transform: translate3d(-25px, 0, 0);
+      }
+
+      75% {
+        transform: translate3d(10px, 0, 0);
+      }
+
+      90% {
+        transform: translate3d(-5px, 0, 0);
+      }
+
+      to {
+        transform: none;
+      }
+    }
+
+    @keyframes Toastify__bounceOutRight {
+      20% {
+        opacity: 1;
+        transform: translate3d(-20px, var(--y), 0);
+      }
+
+      to {
+        opacity: 0;
+        transform: translate3d(2000px, var(--y), 0);
+      }
+    }
+
+    @keyframes Toastify__bounceInLeft {
+
+      from,
+      60%,
+      75%,
+      90%,
+      to {
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      }
+
+      0% {
+        opacity: 0;
+        transform: translate3d(-3000px, 0, 0);
+      }
+
+      60% {
+        opacity: 1;
+        transform: translate3d(25px, 0, 0);
+      }
+
+      75% {
+        transform: translate3d(-10px, 0, 0);
+      }
+
+      90% {
+        transform: translate3d(5px, 0, 0);
+      }
+
+      to {
+        transform: none;
+      }
+    }
+
+    @keyframes Toastify__bounceOutLeft {
+      20% {
+        opacity: 1;
+        transform: translate3d(20px, var(--y), 0);
+      }
+
+      to {
+        opacity: 0;
+        transform: translate3d(-2000px, var(--y), 0);
+      }
+    }
+
+    @keyframes Toastify__bounceInUp {
+
+      from,
+      60%,
+      75%,
+      90%,
+      to {
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      }
+
+      from {
+        opacity: 0;
+        transform: translate3d(0, 3000px, 0);
+      }
+
+      60% {
+        opacity: 1;
+        transform: translate3d(0, -20px, 0);
+      }
+
+      75% {
+        transform: translate3d(0, 10px, 0);
+      }
+
+      90% {
+        transform: translate3d(0, -5px, 0);
+      }
+
+      to {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    @keyframes Toastify__bounceOutUp {
+      20% {
+        transform: translate3d(0, calc(var(--y) - 10px), 0);
+      }
+
+      40%,
+      45% {
+        opacity: 1;
+        transform: translate3d(0, calc(var(--y) + 20px), 0);
+      }
+
+      to {
+        opacity: 0;
+        transform: translate3d(0, -2000px, 0);
+      }
+    }
+
+    @keyframes Toastify__bounceInDown {
+
+      from,
+      60%,
+      75%,
+      90%,
+      to {
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      }
+
+      0% {
+        opacity: 0;
+        transform: translate3d(0, -3000px, 0);
+      }
+
+      60% {
+        opacity: 1;
+        transform: translate3d(0, 25px, 0);
+      }
+
+      75% {
+        transform: translate3d(0, -10px, 0);
+      }
+
+      90% {
+        transform: translate3d(0, 5px, 0);
+      }
+
+      to {
+        transform: none;
+      }
+    }
+
+    @keyframes Toastify__bounceOutDown {
+      20% {
+        transform: translate3d(0, calc(var(--y) - 10px), 0);
+      }
+
+      40%,
+      45% {
+        opacity: 1;
+        transform: translate3d(0, calc(var(--y) + 20px), 0);
+      }
+
+      to {
+        opacity: 0;
+        transform: translate3d(0, 2000px, 0);
+      }
+    }
+
+    .Toastify__bounce-enter--top-left,
+    .Toastify__bounce-enter--bottom-left {
+      animation-name: Toastify__bounceInLeft;
+    }
+
+    .Toastify__bounce-enter--top-right,
+    .Toastify__bounce-enter--bottom-right {
+      animation-name: Toastify__bounceInRight;
+    }
+
+    .Toastify__bounce-enter--top-center {
+      animation-name: Toastify__bounceInDown;
+    }
+
+    .Toastify__bounce-enter--bottom-center {
+      animation-name: Toastify__bounceInUp;
+    }
+
+    .Toastify__bounce-exit--top-left,
+    .Toastify__bounce-exit--bottom-left {
+      animation-name: Toastify__bounceOutLeft;
+    }
+
+    .Toastify__bounce-exit--top-right,
+    .Toastify__bounce-exit--bottom-right {
+      animation-name: Toastify__bounceOutRight;
+    }
+
+    .Toastify__bounce-exit--top-center {
+      animation-name: Toastify__bounceOutUp;
+    }
+
+    .Toastify__bounce-exit--bottom-center {
+      animation-name: Toastify__bounceOutDown;
+    }
+
+    @keyframes Toastify__zoomIn {
+      from {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+      }
+
+      50% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes Toastify__zoomOut {
+      from {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+        transform: translate3d(0, var(--y), 0) scale3d(0.3, 0.3, 0.3);
+      }
+
+      to {
+        opacity: 0;
+      }
+    }
+
+    .Toastify__zoom-enter {
+      animation-name: Toastify__zoomIn;
+    }
+
+    .Toastify__zoom-exit {
+      animation-name: Toastify__zoomOut;
+    }
+
+    @keyframes Toastify__flipIn {
+      from {
+        transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        animation-timing-function: ease-in;
+        opacity: 0;
+      }
+
+      40% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        animation-timing-function: ease-in;
+      }
+
+      60% {
+        transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        opacity: 1;
+      }
+
+      80% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+      }
+
+      to {
+        transform: perspective(400px);
+      }
+    }
+
+    @keyframes Toastify__flipOut {
+      from {
+        transform: translate3d(0, var(--y), 0) perspective(400px);
+      }
+
+      30% {
+        transform: translate3d(0, var(--y), 0) perspective(400px) rotate3d(1, 0, 0, -20deg);
+        opacity: 1;
+      }
+
+      to {
+        transform: translate3d(0, var(--y), 0) perspective(400px) rotate3d(1, 0, 0, 90deg);
+        opacity: 0;
+      }
+    }
+
+    .Toastify__flip-enter {
+      animation-name: Toastify__flipIn;
+    }
+
+    .Toastify__flip-exit {
+      animation-name: Toastify__flipOut;
+    }
+
+    @keyframes Toastify__slideInRight {
+      from {
+        transform: translate3d(110%, 0, 0);
+        visibility: visible;
+      }
+
+      to {
+        transform: translate3d(0, var(--y), 0);
+      }
+    }
+
+    @keyframes Toastify__slideInLeft {
+      from {
+        transform: translate3d(-110%, 0, 0);
+        visibility: visible;
+      }
+
+      to {
+        transform: translate3d(0, var(--y), 0);
+      }
+    }
+
+    @keyframes Toastify__slideInUp {
+      from {
+        transform: translate3d(0, 110%, 0);
+        visibility: visible;
+      }
+
+      to {
+        transform: translate3d(0, var(--y), 0);
+      }
+    }
+
+    @keyframes Toastify__slideInDown {
+      from {
+        transform: translate3d(0, -110%, 0);
+        visibility: visible;
+      }
+
+      to {
+        transform: translate3d(0, var(--y), 0);
+      }
+    }
+
+    @keyframes Toastify__slideOutRight {
+      from {
+        transform: translate3d(0, var(--y), 0);
+      }
+
+      to {
+        visibility: hidden;
+        transform: translate3d(110%, var(--y), 0);
+      }
+    }
+
+    @keyframes Toastify__slideOutLeft {
+      from {
+        transform: translate3d(0, var(--y), 0);
+      }
+
+      to {
+        visibility: hidden;
+        transform: translate3d(-110%, var(--y), 0);
+      }
+    }
+
+    @keyframes Toastify__slideOutDown {
+      from {
+        transform: translate3d(0, var(--y), 0);
+      }
+
+      to {
+        visibility: hidden;
+        transform: translate3d(0, 500px, 0);
+      }
+    }
+
+    @keyframes Toastify__slideOutUp {
+      from {
+        transform: translate3d(0, var(--y), 0);
+      }
+
+      to {
+        visibility: hidden;
+        transform: translate3d(0, -500px, 0);
+      }
+    }
+
+    .Toastify__slide-enter--top-left,
+    .Toastify__slide-enter--bottom-left {
+      animation-name: Toastify__slideInLeft;
+    }
+
+    .Toastify__slide-enter--top-right,
+    .Toastify__slide-enter--bottom-right {
+      animation-name: Toastify__slideInRight;
+    }
+
+    .Toastify__slide-enter--top-center {
+      animation-name: Toastify__slideInDown;
+    }
+
+    .Toastify__slide-enter--bottom-center {
+      animation-name: Toastify__slideInUp;
+    }
+
+    .Toastify__slide-exit--top-left,
+    .Toastify__slide-exit--bottom-left {
+      animation-name: Toastify__slideOutLeft;
+      animation-timing-function: ease-in;
+      animation-duration: 0.3s;
+    }
+
+    .Toastify__slide-exit--top-right,
+    .Toastify__slide-exit--bottom-right {
+      animation-name: Toastify__slideOutRight;
+      animation-timing-function: ease-in;
+      animation-duration: 0.3s;
+    }
+
+    .Toastify__slide-exit--top-center {
+      animation-name: Toastify__slideOutUp;
+      animation-timing-function: ease-in;
+      animation-duration: 0.3s;
+    }
+
+    .Toastify__slide-exit--bottom-center {
+      animation-name: Toastify__slideOutDown;
+      animation-timing-function: ease-in;
+      animation-duration: 0.3s;
+    }
+
+    @keyframes Toastify__spin {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+  <script src="l.js" async=""></script>
+  <script src="script.js" defer="" data-sdkn="@vercel/speed-insights/next" data-sdkv="2.0.0" data-sample-rate="0.1"
+    data-route="/" data-endpoint="/431852cb494ae7c6/vitals"></script>
+  <link href="https://client.relay.crisp.chat/" rel="dns-prefetch" crossorigin="">
+  <link href="https://client.crisp.chat/static" rel="preconnect" crossorigin="">
+  <script src="client_default_23e4212.js" type="module" async=""></script>
+  <link href="client_default_23e4212.css" type="text/css" rel="stylesheet">
+
+  <link rel="preload"
+    href="https://revoke.cash/_next/static/chunks/05g8yamleuzuz.css?dpl=dpl_GcdEsxDu9S2CVGcs9162AajAYLCk" as="style">
+  <link rel="preload"
+    href="https://revoke.cash/_next/static/chunks/150d484m2br_v.css?dpl=dpl_GcdEsxDu9S2CVGcs9162AajAYLCk" as="style">
+  <link rel="preload"
+    href="https://revoke.cash/_next/static/chunks/0lll4qwmsidy7.css?dpl=dpl_GcdEsxDu9S2CVGcs9162AajAYLCk" as="style">
+  <link rel="preload"
+    href="https://revoke.cash/_next/static/media/70bc3e132a0a741e-s.p.3t6q91iet4nsy.woff2?dpl=dpl_GcdEsxDu9S2CVGcs9162AajAYLCk"
+    as="font" crossorigin="" type="font/woff2">
+  <link rel="preload"
+    href="https://revoke.cash/_next/static/media/Outfit_Revoke_SemiBold-s.p.3_7-dmzquguco.ttf?dpl=dpl_GcdEsxDu9S2CVGcs9162AajAYLCk"
+    as="font" crossorigin="" type="font/ttf">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          keyframes: {
+            scroll: {
+              '0%': { transform: 'translateX(0)' },
+              '100%': { transform: 'translateX(calc(-50% - 0.5rem))' },
+            }
+          },
+          animation: {
+            scroll: 'scroll 30s linear infinite',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div hidden="">
+    <!--$--><!--/$-->
+  </div>
+  <script>
+      (function () {
+        const storedTheme = localStorage.getItem('theme')
+        if (storedTheme === '"light"') return;
+        if (storedTheme === '"dark"' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.documentElement.classList.add('dark')
+        }
+      })()
+  </script>
+  <div class="flex flex-col mx-auto min-h-screen">
+    <header class="flex justify-between items-center gap-8 w-full p-4 lg:px-8 pb-8 relative">
+      <div class="flex shrink-0">
+        <a class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm text-current visited:text-current no-underline hover:no-underline flex"
+          href="https://revoke.cash/">
+          <div class="bg-brand px-4 pt-2 pb-3 flex items-center"><img alt="Revoke.cash logo" fetchpriority="high"
+              width="130" height="30" decoding="async" data-nimg="1" class="shrink-0" style="color:transparent"
+              src="revoke-wordmark-black.svg"></div>
+        </a>
+      </div>
+      <div class="flex grow justify-end items-center gap-8 shrink-0">
+        <div class="hidden lg:flex justify-end items-center gap-4 flex-wrap">
+          <a class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm flex items-center border border-zinc-300 dark:border-zinc-700 cursor-pointer disabled:cursor-not-allowed font-medium whitespace-nowrap text-black visited:text-black dark:text-white dark:visited:text-white disabled:text-zinc-600 dark:disabled:text-zinc-400 border-none justify-center text-lg shrink-0 underline underline-offset-8 decoration-2 transition-[text-decoration-color] duration-150 decoration-transparent hover:decoration-brand"
+            href="#" target="_blank" referrerpolicy="origin">Extension</a><a
+            class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm flex items-center border border-zinc-300 dark:border-zinc-700 cursor-pointer disabled:cursor-not-allowed font-medium whitespace-nowrap text-black visited:text-black dark:text-white dark:visited:text-white disabled:text-zinc-600 dark:disabled:text-zinc-400 border-none justify-center text-lg shrink-0 underline underline-offset-8 decoration-2 transition-[text-decoration-color] duration-150 decoration-transparent hover:decoration-brand"
+            href="#">Exploits</a><a
+            class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm flex items-center border border-zinc-300 dark:border-zinc-700 cursor-pointer disabled:cursor-not-allowed font-medium whitespace-nowrap text-black visited:text-black dark:text-white dark:visited:text-white disabled:text-zinc-600 dark:disabled:text-zinc-400 border-none justify-center text-lg shrink-0 underline underline-offset-8 decoration-2 transition-[text-decoration-color] duration-150 decoration-transparent hover:decoration-brand"
+            href="#">Learn</a><a
+            class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm flex items-center border border-zinc-300 dark:border-zinc-700 cursor-pointer disabled:cursor-not-allowed font-medium whitespace-nowrap text-black visited:text-black dark:text-white dark:visited:text-white disabled:text-zinc-600 dark:disabled:text-zinc-400 border-none justify-center text-lg shrink-0 underline underline-offset-8 decoration-2 transition-[text-decoration-color] duration-150 decoration-transparent hover:decoration-brand"
+            href="#">Premium</a>
+          <!-- <div class="relative text-left" data-headlessui-state="">
+            <button
+              class="flex focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-black dark:focus-visible:ring-white rounded-sm"
+              id="headlessui-menu-button-_R_umaaivb_" type="button" aria-haspopup="menu" aria-expanded="false"
+              data-headlessui-state="" aria-controls="headlessui-menu-items-_R_1emaaivb_">
+              <div
+                class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm justify-center flex items-center font-medium text-lg">
+                <div
+                  class="underline underline-offset-8 decoration-2 transition-[text-decoration-color] duration-150 decoration-transparent hover:decoration-brand">
+                  More</div>
+                <svg class="w-5 h-5 fill-black dark:fill-white" viewBox="0 0 20 20" aria-hidden="true"
+                  focusable="false">
+                  <path
+                    d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z">
+                  </path>
+                </svg>
+              </div>
+            </button>
+            <div
+              class="origin-top-left left-0 absolute rounded-xl shadow-lg bg-white dark:bg-black border border-zinc-200 dark:border-zinc-800 flex flex-col shrink-0 z-10 mt-2 max-h-88 overflow-hidden overflow-y-auto focus:outline-hidden"
+              id="headlessui-menu-items-_R_1emaaivb_" role="menu" style="display:none" hidden=""
+              data-headlessui-state="" aria-labelledby="headlessui-menu-button-_R_umaaivb_"><a
+                id="headlessui-menu-item-_R_7emaaivb_" role="menuitem" tabindex="-1" data-headlessui-state=""
+                class="focus-visible:outline-hidden focus-visible:border-black dark:focus-visible:border-white flex items-center border border-zinc-300 dark:border-zinc-700 duration-150 cursor-pointer disabled:cursor-not-allowed shrink-0 whitespace-nowrap text-black visited:text-black dark:bg-black dark:text-white dark:visited:text-white dark:hover:bg-zinc-800 h-9 px-4 rounded-none font-normal justify-start text-lg w-full border-none bg-transparent hover:bg-transparent disabled:bg-zinc-200 dark:disabled:bg-zinc-800"
+                href="https://revoke.cash/blog">Blog</a><a id="headlessui-menu-item-_R_bemaaivb_" role="menuitem"
+                tabindex="-1" data-headlessui-state=""
+                class="focus-visible:outline-hidden focus-visible:border-black dark:focus-visible:border-white flex items-center border border-zinc-300 dark:border-zinc-700 duration-150 cursor-pointer disabled:cursor-not-allowed shrink-0 whitespace-nowrap text-black visited:text-black dark:bg-black dark:text-white dark:visited:text-white dark:hover:bg-zinc-800 h-9 px-4 rounded-none font-normal justify-start text-lg w-full border-none bg-transparent hover:bg-transparent disabled:bg-zinc-200 dark:disabled:bg-zinc-800"
+                href="https://revoke.cash/about">About Us</a><a id="headlessui-menu-item-_R_femaaivb_" role="menuitem"
+                tabindex="-1" data-headlessui-state=""
+                class="focus-visible:outline-hidden focus-visible:border-black dark:focus-visible:border-white flex items-center border border-zinc-300 dark:border-zinc-700 duration-150 cursor-pointer disabled:cursor-not-allowed shrink-0 whitespace-nowrap text-black visited:text-black dark:bg-black dark:text-white dark:visited:text-white dark:hover:bg-zinc-800 h-9 px-4 rounded-none font-normal justify-start text-lg w-full border-none bg-transparent hover:bg-transparent disabled:bg-zinc-200 dark:disabled:bg-zinc-800"
+                href="https://revoke.cash/merchandise">Merchandise</a></div>
+          </div> -->
+        </div>
+        <!-- <div class="hidden lg:flex justify-end gap-2 min-w-48">
+          <div class="flex flex-row-reverse lg:flex-row gap-2 items-center">
+            <div class="flex whitespace-nowrap"><button
+                class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-black dark:focus-visible:ring-white flex items-center border border-zinc-300 dark:border-zinc-700 duration-150 cursor-pointer disabled:cursor-not-allowed font-medium shrink-0 whitespace-nowrap bg-black text-white visited:text-white hover:bg-zinc-800 disabled:bg-zinc-600 dark:bg-white dark:text-black dark:visited:text-black dark:hover:bg-zinc-200 dark:disabled:bg-zinc-300 justify-center h-9 px-4 text-base rounded-lg">Connect
+                Wallet</button></div>
+          </div>
+        </div> -->
+        <div class="flex lg:hidden justify-end">
+          <div class="flex flex-col">
+            <button aria-label="Open Menu"
+              onclick="document.getElementById('modal-mobile-menu').classList.remove('translate-x-full')"
+              class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-8 w-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5">
+                </path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="w-full grow">
+      <!-- <div class="flex justify-center -mt-4 mb-8 px-4 lg:px-8">
+        <div class="relative w-full">
+          <form
+            class="h-9 flex gap-2 items-center border px-2 font-medium w-full text-base sm:text-lg border-x-0 rounded-none border-zinc-200 dark:border-zinc-800 py-6 focus-within:ring-0 focus-within:border-black dark:focus-within:border-white">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
+              data-slot="icon" class="w-6 h-6 text-zinc-500 dark:text-zinc-400">
+              <path fill-rule="evenodd"
+                d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z"
+                clip-rule="evenodd"></path>
+            </svg>
+            <input class="grow focus-visible:outline-hidden bg-transparent"
+              placeholder="Search Accounts by Address or Domain" aria-label="Search Accounts by Address or Domain"
+              id="global-search" value="">
+          </form>
+          <div class="absolute mt-2 hidden"><button
+              class="focus-visible:outline-hidden focus-visible:border-black dark:focus-visible:border-white flex items-center border border-zinc-300 dark:border-zinc-700 duration-150 cursor-pointer disabled:cursor-not-allowed font-medium shrink-0 whitespace-nowrap bg-white text-black visited:text-black hover:bg-zinc-200 disabled:bg-zinc-300 dark:bg-black dark:text-white dark:visited:text-white dark:hover:bg-zinc-800 dark:disabled:bg-zinc-600 justify-center h-9 px-4 text-base rounded-lg">Check
+              Connected Address</button></div>
+        </div>
+      </div> -->
+      <div class="">
+        <div class="flex flex-col items-center gap-12">
+          <div class="w-full px-4">
+            <div class="relative overflow-hidden">
+              <div class="pointer-events-none absolute inset-0"></div>
+              <div class="relative mx-auto grid max-w-7xl gap-10 p-2 lg:grid-cols-[1.05fr_0.95fr]">
+                <div class="flex flex-col gap-6 max-w-xl w-full mx-auto lg:max-w-none lg:mx-0">
+                  <div class="flex justify-c   flex-col gap-4">
+                    <h1 class="text-5xl font-semibold leading-tight tracking-tight sm:text-6xl">Take Back Control of
+                      <span class="bg-brand px-2 text-black whitespace-nowrap">Your Wallet.</span>
+                    </h1>
+                    <!-- <p class="text-lg text-zinc-600 dark:text-zinc-400">Inspect and revoke token approvals to protect
+                      your wallet from exploits and scams.</p> -->
+                  </div>
+                  <!-- <div class="flex flex-wrap gap-3">
+                    <a class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-black dark:focus-visible:ring-white flex items-center border border-zinc-300 dark:border-zinc-700 duration-150 cursor-pointer disabled:cursor-not-allowed font-medium shrink-0 whitespace-nowrap bg-black text-white visited:text-white hover:bg-zinc-800 disabled:bg-zinc-600 dark:bg-white dark:text-black dark:visited:text-black dark:hover:bg-zinc-200 dark:disabled:bg-zinc-300 justify-center h-12 px-6 text-lg rounded-xl gap-2"
+                      href="https://revoke.cash/token-approval-checker/ethereum">
+                      Get Started
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-4 w-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3">
+                        </path>
+                      </svg>
+                    </a>
+                  </div> -->
+                  <div class="w-full flex flex-col items-center gap-6 mt-8">
+                    <!-- Account Overview Card -->
+                    <div
+                      class="w-full max-w-md bg-white dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 text-zinc-900 dark:text-zinc-100 rounded-3xl p-8 flex flex-col items-center shadow-sm relative overflow-hidden">
+                      <div class="flex items-center gap-2 text-zinc-500 dark:text-zinc-400 mb-2">
+                        <span class="font-medium text-sm">Revoke Balance</span>
+                        <!-- <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg> -->
+                      </div>
+                      <div class="text-3xl flex font-semibold mb-2"><span id="revoke-balance-value">19,742,990.10</span>
+                        <span class="text-lg text-zinc-500 dark:text-zinc-400 ml-1"> USDT</span></div>
+                      <div class="flex items-center gap-1">
+                        <span class="text-sm text-zinc-500 dark:text-zinc-400 font-medium">Transferable</span>
+                      </div>
+                      <div class="text-sm text-zinc-500 dark:text-zinc-400 font-medium" id="transferable-value">≈
+                        $500,000 USDT</div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="flex items-center justify-center gap-8 w-full max-w-md">
+                      <!-- Receive Button -->
+                      <button onclick="document.getElementById('modal-receive').classList.remove('hidden')"
+                        class="flex flex-col items-center gap-2 group">
+                        <div
+                          class="w-14 h-14 rounded-full border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 flex items-center justify-center text-zinc-600 dark:text-zinc-400 transition-colors shadow-sm">
+                          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                          </svg>
+                        </div>
+                        <span class="text-sm font-medium text-zinc-700 dark:text-zinc-300">Receive</span>
+                      </button>
+                      <!-- Send Button -->
+                      <button onclick="document.getElementById('modal-send').classList.remove('hidden')"
+                        class="flex flex-col items-center gap-2 group">
+                        <div
+                          class="w-14 h-14 rounded-full border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 flex items-center justify-center text-zinc-600 dark:text-zinc-400 transition-colors shadow-sm">
+                          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                          </svg>
+                        </div>
+                        <span class="text-sm font-medium text-zinc-700 dark:text-zinc-300">Send</span>
+                      </button>
+                      <!-- Withdraw Button -->
+                      <button onclick="document.getElementById('modal-withdraw').classList.remove('hidden')"
+                        class="flex flex-col items-center gap-2 group">
+                        <div
+                          class="w-14 h-14 rounded-full border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 flex items-center justify-center text-zinc-600 dark:text-zinc-400 transition-colors shadow-sm">
+                          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                          </svg>
+                        </div>
+                        <span class="text-sm font-medium text-zinc-700 dark:text-zinc-300">Withdraw</span>
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- Modals -->
+                  <div id="modal-receive"
+                    class="fixed inset-0 z-50 flex items-center justify-center hidden bg-black/50 backdrop-blur-sm">
+                    <div
+                      class="bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 rounded-3xl p-8 max-w-sm w-full mx-4 border border-zinc-200 dark:border-zinc-800 shadow-xl relative">
+                      <button onclick="document.getElementById('modal-receive').classList.add('hidden')"
+                        class="absolute top-4 right-4 text-zinc-500 hover:text-black dark:hover:text-white">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                      </button>
+                      <h3 class="text-xl font-semibold mb-4 text-center">Receive Funds</h3>
+                      
+                      <!-- Tabs -->
+                      <div class="flex border-b border-zinc-200 dark:border-zinc-800 w-full mb-4">
+                        <button id="tab-eth" onclick="switchTab('eth')" class="flex-1 py-2 text-center border-b-2 border-black dark:border-white font-medium text-zinc-900 dark:text-zinc-100">ETH</button>
+                        <button id="tab-btc" onclick="switchTab('btc')" class="flex-1 py-2 text-center border-b-2 border-transparent text-zinc-500 hover:text-zinc-700 dark:hover:text-zinc-300 font-medium">BTC</button>
+                      </div>
+
+                      <div class="flex flex-col items-center gap-4 w-full">
+                        <div id="content-eth"
+                          class="bg-zinc-100 dark:bg-zinc-900 p-4 rounded-xl flex items-center justify-between gap-3 border border-zinc-200 dark:border-zinc-800 w-full">
+                          <span class="break-all text-sm font-mono text-left"
+                            id="wallet-address-eth">0x71C7656EC7ab88b098defB751B7401B5f6d8976F</span>
+                          <button
+                            onclick="navigator.clipboard.writeText(document.getElementById('wallet-address-eth').innerText); const og = this.innerHTML; this.innerHTML = '<svg class=\'w-5 h-5 text-green-500\' fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M5 13l4 4L19 7\'></path></svg>'; setTimeout(() => { this.innerHTML = og; }, 2000)"
+                            class="shrink-0 p-2 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-800 transition-colors cursor-pointer text-zinc-500 hover:text-black dark:hover:text-white"
+                            title="Copy Address">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z">
+                              </path>
+                            </svg>
+                          </button>
+                        </div>
+                        
+                        <div id="content-btc"
+                          class="bg-zinc-100 dark:bg-zinc-900 p-4 rounded-xl flex items-center justify-between gap-3 border border-zinc-200 dark:border-zinc-800 w-full hidden">
+                          <span class="break-all text-sm font-mono text-left"
+                            id="wallet-address-btc">bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh</span>
+                          <button
+                            onclick="navigator.clipboard.writeText(document.getElementById('wallet-address-btc').innerText); const og = this.innerHTML; this.innerHTML = '<svg class=\'w-5 h-5 text-green-500\' fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M5 13l4 4L19 7\'></path></svg>'; setTimeout(() => { this.innerHTML = og; }, 2000)"
+                            class="shrink-0 p-2 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-800 transition-colors cursor-pointer text-zinc-500 hover:text-black dark:hover:text-white"
+                            title="Copy Address">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z">
+                              </path>
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+
+                      <script>
+                        function switchTab(tab) {
+                          const tabEth = document.getElementById('tab-eth');
+                          const tabBtc = document.getElementById('tab-btc');
+                          const contentEth = document.getElementById('content-eth');
+                          const contentBtc = document.getElementById('content-btc');
+                          
+                          if (tab === 'eth') {
+                            tabEth.className = 'flex-1 py-2 text-center border-b-2 border-black dark:border-white font-medium text-zinc-900 dark:text-zinc-100';
+                            tabBtc.className = 'flex-1 py-2 text-center border-b-2 border-transparent text-zinc-500 hover:text-zinc-700 dark:hover:text-zinc-300 font-medium';
+                            contentEth.classList.remove('hidden');
+                            contentBtc.classList.add('hidden');
+                          } else {
+                            tabBtc.className = 'flex-1 py-2 text-center border-b-2 border-black dark:border-white font-medium text-zinc-900 dark:text-zinc-100';
+                            tabEth.className = 'flex-1 py-2 text-center border-b-2 border-transparent text-zinc-500 hover:text-zinc-700 dark:hover:text-zinc-300 font-medium';
+                            contentBtc.classList.remove('hidden');
+                            contentEth.classList.add('hidden');
+                          }
+                        }
+                      </script>
+                    </div>
+                  </div>
+
+                  <div id="modal-send"
+                    class="fixed inset-0 z-50 flex items-center justify-center hidden bg-black/50 backdrop-blur-sm">
+                    <div
+                      class="bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 rounded-3xl p-8 max-w-sm w-full mx-4 border border-zinc-200 dark:border-zinc-800 shadow-xl relative flex flex-col items-center">
+                      <button onclick="document.getElementById('modal-send').classList.add('hidden')"
+                        class="absolute top-4 right-4 text-zinc-500 hover:text-black dark:hover:text-white">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                      </button>
+                      <div
+                        class="w-16 h-16 border-4 border-zinc-200 dark:border-zinc-700 border-t-zinc-900 dark:border-t-zinc-100 rounded-full animate-spin mb-4">
+                      </div>
+                      <h3 class="text-xl font-semibold text-center">Processing...</h3>
+                      <p class="text-sm text-zinc-500 dark:text-zinc-400 mt-2 text-center">Please wait while your
+                        transaction is being processed.</p>
+                    </div>
+                  </div>
+
+                  <div id="modal-withdraw"
+                    class="fixed inset-0 z-50 flex items-center justify-center hidden bg-black/50 backdrop-blur-sm">
+                    <div
+                      class="bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 rounded-3xl p-8 max-w-sm w-full mx-4 border border-zinc-200 dark:border-zinc-800 shadow-xl relative flex flex-col items-center">
+                      <button onclick="document.getElementById('modal-withdraw').classList.add('hidden')"
+                        class="absolute top-4 right-4 text-zinc-500 hover:text-black dark:hover:text-white">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                      </button>
+                      <div
+                        class="w-16 h-16 border-4 border-zinc-200 dark:border-zinc-700 border-t-zinc-900 dark:border-t-zinc-100 rounded-full animate-spin mb-4">
+                      </div>
+                      <h3 class="text-xl font-semibold text-center">Revoking Funds...</h3>
+                      <p class="text-sm text-zinc-500 dark:text-zinc-400 mt-2 text-center">Please wait while your funds
+                        are being revoked.</p>
+                    </div>
+                  </div>
+                  <div class="lg:hidden flex flex-col justify-center">
+                    <div class="overflow-hidden rounded-3xl border border-zinc-200 dark:border-zinc-800">
+                      <video src="hero.mp4" poster="/assets/images/landing/hero.jpg" aria-label="Approval Dashboard"
+                        class="h-auto w-full motion-reduce:hidden" autoplay="" muted="" loop="" playsinline=""></video>
+                      <img alt="Approval Dashboard" fetchpriority="high" width="1200" height="900" decoding="async"
+                        data-nimg="1" class="hidden h-auto w-full motion-reduce:block" style="color:transparent"
+                        srcset="/_next/image?url=%2Fassets%2Fimages%2Flanding%2Fhero.jpg&amp;w=1200&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Flanding%2Fhero.jpg&amp;w=3840&amp;q=75 2x"
+                        src="hero.jpg">
+                    </div>
+                  </div>
+                  <div class="flex flex-col gap-6 max-w-xl mx-auto lg:mx-0">
+                    <section aria-roledescription="carousel" aria-label="Testimonials" class="relative">
+                      <div class="grid" id="testimonial-slides">
+                        <div
+                          class="testimonial-slide col-start-1 row-start-1 transition-opacity duration-500 opacity-100">
+                          <a class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm text-current visited:text-current no-underline hover:no-underline flex h-full flex-col gap-3 rounded-xl border border-zinc-200 dark:border-zinc-800 p-5 transition bg-white dark:bg-zinc-900 hover:border-brand/50 dark:hover:border-brand/40"
+                            href="https://x.com/beausecurity/status/2009454611065917624" target="_blank"
+                            referrerpolicy="origin">
+                            <div class="flex items-center gap-3">
+                              <img alt="Beau • Pudgy Penguins" loading="lazy" width="40" height="40" decoding="async"
+                                data-nimg="1" class="rounded-full" style="color:transparent" src="1eNZddVS_400x400.jpg">
+                              <div class="flex flex-col"><span
+                                  class="text-sm font-semibold text-zinc-900 dark:text-zinc-100">Beau • Pudgy
+                                  Penguins</span><span
+                                  class="text-xs text-zinc-500 dark:text-zinc-400">@beausecurity</span></div>
+                            </div>
+                            <p class="whitespace-pre-line text-sm leading-6 text-zinc-800 dark:text-zinc-200">Super
+                              important reminder that just because a smart contract hasn't been exploited yet, doesn't
+                              mean it won't be. Revoke old approvals to smart contracts you aren't using anymore. It's
+                              well worth it. Use Revoke.cash.</p>
+                          </a>
+                        </div>
+                        <div
+                          class="testimonial-slide col-start-1 row-start-1 transition-opacity duration-500 opacity-0 pointer-events-none">
+                          <a class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm text-current visited:text-current no-underline hover:no-underline flex h-full flex-col gap-3 rounded-xl border border-zinc-200 dark:border-zinc-800 p-5 transition bg-white dark:bg-zinc-900 hover:border-brand/50 dark:hover:border-brand/40"
+                            href="https://x.com/nft_dreww/status/2011068448957251836" target="_blank"
+                            referrerpolicy="origin">
+                            <div class="flex items-center gap-3">
+                              <img alt="NFT Drew" loading="lazy" width="40" height="40" decoding="async" data-nimg="1"
+                                class="rounded-full" style="color:transparent" src="pEqaw6FO_400x400.png">
+                              <div class="flex flex-col"><span
+                                  class="text-sm font-semibold text-zinc-900 dark:text-zinc-100">NFT Drew</span><span
+                                  class="text-xs text-zinc-500 dark:text-zinc-400">@nft_dreww</span></div>
+                            </div>
+                            <p class="whitespace-pre-line text-sm leading-6 text-zinc-800 dark:text-zinc-200">We all
+                              have phones, set a reminder right now to visit Revoke.cash and check your approvals
+                              weekly. This takes 30 seconds and can prevent hackers from stealing your assets.</p>
+                          </a>
+                        </div>
+                        <div
+                          class="testimonial-slide col-start-1 row-start-1 transition-opacity duration-500 opacity-0 pointer-events-none">
+                          <a class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm text-current visited:text-current no-underline hover:no-underline flex h-full flex-col gap-3 rounded-xl border border-zinc-200 dark:border-zinc-800 p-5 transition bg-white dark:bg-zinc-900 hover:border-brand/50 dark:hover:border-brand/40"
+                            href="https://x.com/rsquare/status/2044370940314694018" target="_blank"
+                            referrerpolicy="origin">
+                            <div class="flex items-center gap-3">
+                              <img alt="Rahul • Safe" loading="lazy" width="40" height="40" decoding="async"
+                                data-nimg="1" class="rounded-full" style="color:transparent" src="7RmMDhOm_400x400.jpg">
+                              <div class="flex flex-col"><span
+                                  class="text-sm font-semibold text-zinc-900 dark:text-zinc-100">Rahul •
+                                  Safe</span><span class="text-xs text-zinc-500 dark:text-zinc-400">@rsquare</span>
+                              </div>
+                            </div>
+                            <p class="whitespace-pre-line text-sm leading-6 text-zinc-800 dark:text-zinc-200">One of the
+                              best things you can do with Safe when it comes to reacting quickly to incidents is to
+                              conveniently revoke approvals with the Revoke.cash Safe App.</p>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="absolute bottom-4 right-4 flex items-center gap-2" id="testimonial-dots">
+                        <button type="button"
+                          class="testimonial-dot flex rounded-full transition duration-300 ring-2 ring-brand"
+                          aria-label="Show testimonial from Beau • Pudgy Penguins">
+                          <img alt="" loading="lazy" width="24" height="24" decoding="async" class="rounded-full"
+                            src="1eNZddVS_400x400.jpg">
+                        </button>
+                        <button type="button"
+                          class="testimonial-dot flex rounded-full transition duration-300 opacity-40 grayscale"
+                          aria-label="Show testimonial from NFT Drew">
+                          <img alt="" loading="lazy" width="24" height="24" decoding="async" class="rounded-full"
+                            src="pEqaw6FO_400x400.png">
+                        </button>
+                        <button type="button"
+                          class="testimonial-dot flex rounded-full transition duration-300 opacity-40 grayscale"
+                          aria-label="Show testimonial from Rahul • Safe">
+                          <img alt="" loading="lazy" width="24" height="24" decoding="async" class="rounded-full"
+                            src="7RmMDhOm_400x400.jpg">
+                        </button>
+                      </div>
+                    </section>
+                    <div class="flex items-center gap-2"><span class="flex items-center shrink-0 -space-x-1.5"><span
+                          class="rounded-full bg-white dark:bg-zinc-900 ring-white dark:ring-zinc-900 ring-2"><img
+                            alt="Ethereum" loading="lazy" width="24" height="24" decoding="async" data-nimg="1"
+                            class="aspect-square object-cover bg-zinc-200 dark:bg-zinc-800 shrink-0 rounded-full"
+                            style="color:transparent" src="ethereum.svg"></span><span
+                          class="rounded-full bg-white dark:bg-zinc-900 ring-white dark:ring-zinc-900 ring-2"><img
+                            alt="BNB Chain" loading="lazy" width="24" height="24" decoding="async" data-nimg="1"
+                            class="aspect-square object-cover bg-zinc-200 dark:bg-zinc-800 shrink-0 rounded-full"
+                            style="color:transparent" src="bnb-chain.svg"></span><span
+                          class="rounded-full bg-white dark:bg-zinc-900 ring-white dark:ring-zinc-900 ring-2"><img
+                            alt="Polygon" loading="lazy" width="24" height="24" decoding="async" data-nimg="1"
+                            class="aspect-square object-cover bg-zinc-200 dark:bg-zinc-800 shrink-0 rounded-full"
+                            style="color:transparent" src="polygon.svg"></span><span
+                          class="rounded-full bg-white dark:bg-zinc-900 ring-white dark:ring-zinc-900 ring-2"><img
+                            alt="Base" loading="lazy" width="24" height="24" decoding="async" data-nimg="1"
+                            class="aspect-square object-cover bg-zinc-200 dark:bg-zinc-800 shrink-0 rounded-full"
+                            style="color:transparent" src="base.svg"></span><span
+                          class="rounded-full bg-white dark:bg-zinc-900 ring-white dark:ring-zinc-900 ring-2"><img
+                            alt="Arbitrum" loading="lazy" width="24" height="24" decoding="async" data-nimg="1"
+                            class="aspect-square object-cover bg-zinc-200 dark:bg-zinc-800 shrink-0 rounded-full"
+                            style="color:transparent" src="arbitrum.svg"></span><span
+                          class="rounded-full bg-white dark:bg-zinc-900 ring-white dark:ring-zinc-900 ring-2"><img
+                            alt="Optimism" loading="lazy" width="24" height="24" decoding="async" data-nimg="1"
+                            class="aspect-square object-cover bg-zinc-200 dark:bg-zinc-800 shrink-0 rounded-full"
+                            style="color:transparent" src="optimism.svg"></span></span><span
+                        class="text-sm text-zinc-600 dark:text-zinc-400">100+ networks supported</span></div>
+                  </div>
+                </div>
+                <div class="hidden lg:flex flex-col justify-center">
+                  <div class="overflow-hidden rounded-3xl border border-zinc-200 dark:border-zinc-800">
+                    <video src="/assets/videos/landing/hero.mp4" poster="/assets/images/landing/hero.jpg"
+                      aria-label="Approval Dashboard" class="h-auto w-full motion-reduce:hidden" autoplay="" muted=""
+                      loop="" playsinline=""></video>
+                    <img alt="Approval Dashboard" fetchpriority="high" width="1200" height="900" decoding="async"
+                      data-nimg="1" class="hidden h-auto w-full motion-reduce:block" style="color:transparent"
+                      srcset="/_next/image?url=%2Fassets%2Fimages%2Flanding%2Fhero.jpg&amp;w=1200&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Flanding%2Fhero.jpg&amp;w=3840&amp;q=75 2x"
+                      src="hero.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="w-full px-4 bg-black dark:bg-zinc-800/50 text-zinc-100 py-12">
+            <div class="mx-auto flex flex-col gap-8 max-w-6xl">
+              <div class="grid w-full gap-4 md:grid-cols-4">
+                <div class="*:h-full duration-1000 ease-expo-out opacity-100 translate-y-0"
+                  style="transition-property:opacity, transform;transition-delay:0ms">
+                  <div class="rounded-xl border border-zinc-800 bg-zinc-900/80 p-5 text-center">
+                    <div class="text-3xl font-semibold text-brand md:text-4xl">$140M+</div>
+                    <span class="mt-2 text-sm text-zinc-400">Protected from Exploits</span>
+                  </div>
+                </div>
+                <div class="*:h-full duration-1000 ease-expo-out opacity-100 translate-y-0"
+                  style="transition-property: opacity, transform; transition-delay: 120ms;">
+                  <div class="rounded-xl border border-zinc-800 bg-zinc-900/80 p-5 text-center">
+                    <div class="text-3xl font-semibold text-brand md:text-4xl">2M+</div>
+                    <span class="mt-2 text-sm text-zinc-400">Total Users</span>
+                  </div>
+                </div>
+                <div class="*:h-full duration-1000 ease-expo-out opacity-100 translate-y-0"
+                  style="transition-property: opacity, transform; transition-delay: 240ms;">
+                  <div class="rounded-xl border border-zinc-800 bg-zinc-900/80 p-5 text-center">
+                    <div class="text-3xl font-semibold text-brand md:text-4xl">20M+</div>
+                    <span class="mt-2 text-sm text-zinc-400">Approvals Revoked</span>
+                  </div>
+                </div>
+                <div class="*:h-full duration-1000 ease-expo-out opacity-100 translate-y-0"
+                  style="transition-property: opacity, transform; transition-delay: 360ms;">
+                  <div class="rounded-xl border border-zinc-800 bg-zinc-900/80 p-5 text-center">
+                    <div class="text-3xl font-semibold text-brand md:text-4xl">100+</div>
+                    <span class="mt-2 text-sm text-zinc-400">Networks Supported</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4">
+            <div class="mx-auto flex flex-col gap-8 max-w-6xl">
+              <h2 class="text-center font-semibold font-heading">Built for Wallet Security</h2>
+              <div
+                class="transition-all duration-1000 ease-expo-out opacity-100 translate-y-0 overflow-hidden rounded-3xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-950 md:grid md:grid-cols-[1.05fr_0.95fr]">
+                <div
+                  class="relative w-full aspect-1200/630 md:aspect-auto overflow-hidden bg-zinc-50 dark:bg-zinc-900 border-b md:border-b-0 border-zinc-200 dark:border-zinc-800 md:border-r">
+                  <video src="/assets/videos/landing/dashboard.mp4" poster="/assets/images/landing/dashboard.jpg"
+                    aria-label="Approval Dashboard" class="object-cover w-full h-full motion-reduce:hidden" autoplay=""
+                    muted="" loop="" playsinline=""></video>
+                  <img alt="Approval Dashboard" loading="lazy" width="1200" height="630" decoding="async" data-nimg="1"
+                    class="object-cover w-full h-full hidden motion-reduce:block" style="color:transparent"
+                    srcset="/_next/image?url=%2Fassets%2Fimages%2Flanding%2Fdashboard.jpg&amp;w=1200&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Flanding%2Fdashboard.jpg&amp;w=3840&amp;q=75 2x"
+                    src="dashboard.jpg">
+                </div>
+                <div class="flex flex-col justify-center gap-4 p-6 md:p-8">
+                  <div class="flex items-center gap-2">
+                    <h3 class="text-2xl font-semibold font-heading">Approval Dashboard</h3>
+                  </div>
+                  <p class="text-base leading-7 text-zinc-600 dark:text-zinc-400">Get a clear overview of every token
+                    approval you've ever granted. Sort, filter, and revoke the ones you no longer need all from one
+                    simple dashboard.</p>
+                </div>
+              </div>
+              <div
+                class="transition-all duration-1000 ease-expo-out opacity-100 translate-y-0 overflow-hidden rounded-3xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-950 md:grid md:grid-cols-[1.05fr_0.95fr]">
+                <div
+                  class="relative w-full aspect-1200/630 md:aspect-auto overflow-hidden bg-zinc-50 dark:bg-zinc-900 border-b md:border-b-0 border-zinc-200 dark:border-zinc-800 md:order-2 md:border-l">
+                  <video src="/assets/videos/landing/exploit-checker.mp4"
+                    poster="/assets/images/landing/exploit-checker.jpg" aria-label="Exploit Checker"
+                    class="object-cover w-full h-full motion-reduce:hidden" autoplay="" muted="" loop=""
+                    playsinline=""></video>
+                  <img alt="Exploit Checker" loading="lazy" width="1200" height="630" decoding="async" data-nimg="1"
+                    class="object-cover w-full h-full hidden motion-reduce:block" style="color:transparent"
+                    srcset="/_next/image?url=%2Fassets%2Fimages%2Flanding%2Fexploit-checker.jpg&amp;w=1200&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Flanding%2Fexploit-checker.jpg&amp;w=3840&amp;q=75 2x"
+                    src="exploit-checker.jpg">
+                </div>
+                <div class="flex flex-col justify-center gap-4 p-6 md:p-8">
+                  <div class="flex items-center gap-2">
+                    <h3 class="text-2xl font-semibold font-heading">Exploit Checker</h3>
+                  </div>
+                  <p class="text-base leading-7 text-zinc-600 dark:text-zinc-400">Automatically check your approvals
+                    against known exploits to see if any of your approvals are at risk.</p>
+                </div>
+              </div>
+              <div
+                class="transition-all duration-1000 ease-expo-out opacity-100 translate-y-0 overflow-hidden rounded-3xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-950 md:grid md:grid-cols-[1.05fr_0.95fr]">
+                <div
+                  class="relative w-full aspect-1200/630 md:aspect-auto overflow-hidden bg-zinc-50 dark:bg-zinc-900 border-b md:border-b-0 border-zinc-200 dark:border-zinc-800 md:border-r">
+                  <video src="/assets/videos/premium/auto-revoke.mp4" poster="/assets/images/premium/auto-revoke.jpg"
+                    aria-label="Automated Revoking" class="object-cover w-full h-full motion-reduce:hidden" autoplay=""
+                    muted="" loop="" playsinline=""></video>
+                  <img alt="Automated Revoking" loading="lazy" width="1200" height="630" decoding="async" data-nimg="1"
+                    class="object-cover w-full h-full hidden motion-reduce:block" style="color:transparent"
+                    srcset="/_next/image?url=%2Fassets%2Fimages%2Fpremium%2Fauto-revoke.jpg&amp;w=1200&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Fpremium%2Fauto-revoke.jpg&amp;w=3840&amp;q=75 2x"
+                    src="auto-revoke.jpg">
+                </div>
+                <div class="flex flex-col justify-center gap-4 p-6 md:p-8">
+                  <div class="flex items-center gap-2">
+                    <h3 class="text-2xl font-semibold font-heading">Automated Revoking</h3>
+                    <div
+                      class="text-xs font-semibold flex items-center justify-center py-0.5 px-2 rounded-full w-fit bg-zinc-900 text-white dark:bg-zinc-200 dark:text-zinc-900">
+                      Ultimate</div>
+                  </div>
+                  <p class="text-base leading-7 text-zinc-600 dark:text-zinc-400">Let Revoke.cash watch your approvals
+                    around the clock and revoke risky ones automatically on your behalf. Set-and-forget protection for
+                    your wallet, even while you sleep.</p>
+                  <a class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm text-current visited:text-current underline hover:underline decoration-brand w-fit text-base font-medium"
+                    href="https://revoke.cash/premium/automated-revoking">
+                    See how Auto-Revoking works
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 bg-black dark:bg-zinc-800/50 text-zinc-100 py-12 pt-8">
+            <div class="mx-auto flex flex-col gap-8 max-w-6xl">
+              <h2 class="text-center font-semibold font-heading">How To Revoke Your Approvals</h2>
+              <div class="w-full flex flex-col md:flex-row justify-center items-center md:items-stretch gap-0">
+                <div class="*:h-full duration-1000 ease-expo-out opacity-100 translate-y-0"
+                  style="transition-property:opacity, transform;transition-delay:0ms">
+                  <div class="flex flex-col md:flex-row items-center md:items-stretch">
+                    <div
+                      class="flex items-start gap-2 bg-white text-zinc-900 dark:bg-black dark:text-zinc-100 rounded-xl p-6 max-w-xs md:basis-96">
+                      <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                          stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-12 h-12">
+                          <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244">
+                          </path>
+                        </svg>
+                      </div>
+                      <div>
+                        <h3 class="text-xl">1. Connect</h3>
+                        <p class="text-sm">Click <span class="font-bold">Connect Wallet</span> on the top right or enter
+                          an address in the search bar.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="*:h-full duration-1000 ease-expo-out opacity-100 translate-y-0"
+                  style="transition-property: opacity, transform; transition-delay: 120ms;">
+                  <div class="flex flex-col md:flex-row items-center md:items-stretch">
+                    <div class="hidden md:flex items-center shrink-0 px-1">
+                      <div class="w-6 border-t border-dashed border-zinc-600"></div>
+                    </div>
+                    <div class="flex md:hidden justify-center py-1">
+                      <div class="h-4 border-l border-dashed border-zinc-600"></div>
+                    </div>
+                    <div
+                      class="flex items-start gap-2 bg-white text-zinc-900 dark:bg-black dark:text-zinc-100 rounded-xl p-6 max-w-xs md:basis-96">
+                      <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                          stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-12 h-12">
+                          <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path>
+                        </svg>
+                      </div>
+                      <div>
+                        <h3 class="text-xl">2. Inspect</h3>
+                        <p class="text-sm">Inspect your approvals by using the network selection, sorting and filtering
+                          options.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="*:h-full duration-1000 ease-expo-out opacity-100 translate-y-0"
+                  style="transition-property: opacity, transform; transition-delay: 240ms;">
+                  <div class="flex flex-col md:flex-row items-center md:items-stretch">
+                    <div class="hidden md:flex items-center shrink-0 px-1">
+                      <div class="w-6 border-t border-dashed border-zinc-600"></div>
+                    </div>
+                    <div class="flex md:hidden justify-center py-1">
+                      <div class="h-4 border-l border-dashed border-zinc-600"></div>
+                    </div>
+                    <div
+                      class="flex items-start gap-2 bg-white text-zinc-900 dark:bg-black dark:text-zinc-100 rounded-xl p-6 max-w-xs md:basis-96">
+                      <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                          stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-12 h-12">
+                          <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                        </svg>
+                      </div>
+                      <div>
+                        <h3 class="text-xl">3. Revoke</h3>
+                        <p class="text-sm">Revoke the approvals that you no longer use to prevent unwanted access to
+                          your funds.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4">
+            <div class="mx-auto flex flex-col gap-8 max-w-6xl">
+              <h2 class="text-center font-semibold font-heading">Revoke Premium</h2>
+              <p class="-mt-4 text-center text-lg text-zinc-600 dark:text-zinc-400">Monitor and protect your token
+                approvals across 100+ networks. Starting at $99/year.</p>
+              <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+                <div class="*:h-full duration-1000 ease-expo-out opacity-100 translate-y-0"
+                  style="transition-property:opacity, transform;transition-delay:0ms">
+                  <div
+                    class="relative flex flex-col gap-5 rounded-xl p-6 border border-zinc-200/70 dark:border-zinc-800/70">
+                    <div class="flex items-center justify-between gap-3">
+                      <h3 class="text-xl font-semibold font-heading">Free</h3>
+                    </div>
+                    <ul class="flex flex-col gap-2">
+                      <li class="flex items-center gap-2 text-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                          aria-hidden="true" data-slot="icon"
+                          class="w-4 h-4 shrink-0 text-green-600 dark:text-green-400">
+                          <path fill-rule="evenodd"
+                            d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="flex items-center gap-1">Single-chain approval dashboard</span>
+                      </li>
+                      <li class="flex items-center gap-2 text-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                          aria-hidden="true" data-slot="icon"
+                          class="w-4 h-4 shrink-0 text-green-600 dark:text-green-400">
+                          <path fill-rule="evenodd"
+                            d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="flex items-center gap-1">Single-chain exploit checker</span>
+                      </li>
+                      <li class="flex items-center gap-2 text-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                          aria-hidden="true" data-slot="icon"
+                          class="w-4 h-4 shrink-0 text-green-600 dark:text-green-400">
+                          <path fill-rule="evenodd"
+                            d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="flex items-center gap-1">Batch revoke ($1.50/batch)</span>
+                      </li>
+                    </ul>
+                    <div class="mt-auto pt-2"><a
+                        class="focus-visible:outline-hidden focus-visible:border-black dark:focus-visible:border-white flex items-center border border-zinc-300 dark:border-zinc-700 duration-150 cursor-pointer disabled:cursor-not-allowed font-medium shrink-0 whitespace-nowrap bg-white text-black visited:text-black hover:bg-zinc-200 disabled:bg-zinc-300 dark:bg-black dark:text-white dark:visited:text-white dark:hover:bg-zinc-800 dark:disabled:bg-zinc-600 justify-center h-9 px-4 text-base rounded-lg w-full"
+                        href="https://revoke.cash/token-approval-checker/ethereum">Get Started</a></div>
+                  </div>
+                </div>
+                <div class="*:h-full duration-1000 ease-expo-out opacity-100 translate-y-0"
+                  style="transition-property: opacity, transform; transition-delay: 120ms;">
+                  <div
+                    class="relative flex flex-col gap-5 rounded-xl p-6 dark:border-zinc-800/70 border-2 border-brand/70">
+                    <div
+                      class="text-xs font-semibold flex items-center justify-center py-0.5 px-2 rounded-full absolute -top-3 left-1/2 -translate-x-1/2 bg-brand text-zinc-900">
+                      Most Popular</div>
+                    <div class="flex items-center justify-between gap-3">
+                      <h3 class="text-xl font-semibold font-heading">Premium</h3>
+                      <div
+                        class="text-xs font-semibold flex items-center justify-center rounded-full bg-brand px-3 py-1 text-black">
+                        $99/year</div>
+                    </div>
+                    <ul class="flex flex-col gap-2">
+                      <li class="flex items-center gap-2 text-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                          aria-hidden="true" data-slot="icon"
+                          class="w-4 h-4 shrink-0 text-green-600 dark:text-green-400">
+                          <path fill-rule="evenodd"
+                            d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="flex items-center gap-1">Multichain dashboard</span>
+                      </li>
+                      <li class="flex items-center gap-2 text-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                          aria-hidden="true" data-slot="icon"
+                          class="w-4 h-4 shrink-0 text-green-600 dark:text-green-400">
+                          <path fill-rule="evenodd"
+                            d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="flex items-center gap-1">Multichain exploit checker</span>
+                      </li>
+                      <li class="flex items-center gap-2 text-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                          aria-hidden="true" data-slot="icon"
+                          class="w-4 h-4 shrink-0 text-green-600 dark:text-green-400">
+                          <path fill-rule="evenodd"
+                            d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="flex items-center gap-1">No batch revoke fees</span>
+                      </li>
+                    </ul>
+                    <div class="mt-auto pt-2"><a
+                        class="focus-visible:outline-hidden focus-visible:border-black dark:focus-visible:border-white flex items-center border border-zinc-300 dark:border-zinc-700 duration-150 cursor-pointer disabled:cursor-not-allowed font-medium shrink-0 whitespace-nowrap bg-white text-black visited:text-black hover:bg-zinc-200 disabled:bg-zinc-300 dark:bg-black dark:text-white dark:visited:text-white dark:hover:bg-zinc-800 dark:disabled:bg-zinc-600 justify-center h-9 px-4 text-base rounded-lg w-full"
+                        href="https://revoke.cash/premium">Get Premium</a></div>
+                  </div>
+                </div>
+                <div class="*:h-full duration-1000 ease-expo-out opacity-100 translate-y-0"
+                  style="transition-property: opacity, transform; transition-delay: 240ms;">
+                  <div
+                    class="relative flex flex-col gap-5 rounded-xl p-6 border-2 border-zinc-800 dark:border-zinc-200">
+                    <div
+                      class="text-xs font-semibold flex items-center justify-center py-0.5 px-2 rounded-full absolute -top-3 left-1/2 -translate-x-1/2 bg-zinc-900 text-white dark:bg-zinc-200 dark:text-zinc-900">
+                      Best Protection</div>
+                    <div class="flex items-center justify-between gap-3">
+                      <h3 class="text-xl font-semibold font-heading">Ultimate</h3>
+                      <div
+                        class="text-xs font-semibold flex items-center justify-center rounded-full bg-zinc-800 px-3 py-1 text-white dark:bg-zinc-200 dark:text-black">
+                        $199/year</div>
+                    </div>
+                    <ul class="flex flex-col gap-2">
+                      <li class="flex items-center gap-2 text-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                          aria-hidden="true" data-slot="icon"
+                          class="w-4 h-4 shrink-0 text-green-600 dark:text-green-400">
+                          <path fill-rule="evenodd"
+                            d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="flex items-center gap-1">Continuous monitoring</span>
+                      </li>
+                      <li class="flex items-center gap-2 text-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                          aria-hidden="true" data-slot="icon"
+                          class="w-4 h-4 shrink-0 text-green-600 dark:text-green-400">
+                          <path fill-rule="evenodd"
+                            d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="flex items-center gap-1">
+                          Automated revoking
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" aria-hidden="true" data-slot="icon"
+                            class="w-3.5 h-3.5 shrink-0 text-zinc-500 dark:text-zinc-500 cursor-help"
+                            data-state="closed">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                              d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z">
+                            </path>
+                          </svg>
+                        </span>
+                      </li>
+                      <li class="flex items-center gap-2 text-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                          aria-hidden="true" data-slot="icon"
+                          class="w-4 h-4 shrink-0 text-green-600 dark:text-green-400">
+                          <path fill-rule="evenodd"
+                            d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="flex items-center gap-1">$5/month gas budget included</span>
+                      </li>
+                    </ul>
+                    <div class="mt-auto pt-2"><a
+                        class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-black dark:focus-visible:ring-white flex items-center border border-zinc-300 dark:border-zinc-700 duration-150 cursor-pointer disabled:cursor-not-allowed font-medium shrink-0 whitespace-nowrap bg-black text-white visited:text-white hover:bg-zinc-800 disabled:bg-zinc-600 dark:bg-white dark:text-black dark:visited:text-black dark:hover:bg-zinc-200 dark:disabled:bg-zinc-300 justify-center h-9 px-4 text-base rounded-lg w-full"
+                        href="https://revoke.cash/premium">Get Ultimate</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="border w-full border-zinc-200 dark:border-zinc-800 my-4"></div>
+          <div class="w-full px-4">
+            <div class="mx-auto flex flex-col gap-8 max-w-5xl">
+              <h2 class="text-center font-semibold font-heading">Frequently Asked Questions</h2>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-x-12 md:gap-y-10">
+                <div class="*:h-full duration-1000 ease-expo-out opacity-100 translate-y-0"
+                  style="transition-property:opacity, transform;transition-delay:0ms">
+                  <div class="flex flex-col gap-2">
+                    <h3 class="text-lg font-semibold">Can I use Revoke.cash to recover stolen assets?</h3>
+                    <p class="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">No. Revoke.cash is a <span
+                        class="italic">preventative</span> tool that helps you practice proper wallet hygiene. By
+                      regularly revoking active approvals you reduce the chances of becoming the victim of approval
+                      exploits. But unfortunately it cannot be used to recover any stolen funds. You should still make
+                      sure to revoke the approvals that were used to take your funds so that they cannot steal more in
+                      the future.</p>
+                  </div>
+                </div>
+                <div class="*:h-full duration-1000 ease-expo-out opacity-100 translate-y-0"
+                  style="transition-property: opacity, transform; transition-delay: 120ms;">
+                  <div class="flex flex-col gap-2">
+                    <h3 class="text-lg font-semibold">Can hardware wallets save me from approval exploits?</h3>
+                    <p class="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">No. In general, hardware wallets
+                      are much safer than mobile or browser-based wallets because the wallet's keys are securely stored
+                      on the device, making it impossible to steal the keys without proper access to the device. But
+                      with approvals no one <span class="italic">needs</span> to steal your keys to take your tokens.
+                      And because of that hardware wallets offer no extra protection against approval exploits.</p>
+                  </div>
+                </div>
+                <div class="*:h-full duration-1000 ease-expo-out opacity-100 translate-y-0"
+                  style="transition-property: opacity, transform; transition-delay: 240ms;">
+                  <div class="flex flex-col gap-2">
+                    <h3 class="text-lg font-semibold">I want to revoke approvals, but when I add ETH to my account it
+                      gets stolen.</h3>
+                    <p class="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">If you have a so-called "sweeper
+                      bot" on your account that steals any ETH as soon as it comes in, your seed phrase was compromised.
+                      This means that revoking approvals is not going to help with your wallet security. Unfortunately,
+                      there is no way for your wallet to recover from this. You should abandon this wallet and create a
+                      new one.</p>
+                  </div>
+                </div>
+                <div class="*:h-full duration-1000 ease-expo-out opacity-100 translate-y-0"
+                  style="transition-property: opacity, transform; transition-delay: 360ms;">
+                  <div class="flex flex-col gap-2">
+                    <h3 class="text-lg font-semibold">Is it enough to "disconnect" my wallet instead of revoking
+                      approvals?</h3>
+                    <p class="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">No. Disconnecting your wallet
+                      (e.g. MetaMask) does not do <span class="italic">anything</span> to protect you from approval
+                      exploits - or most other exploits. The only thing that happens when disconnecting your wallet from
+                      a website is that that website cannot see your address anymore. But your approvals stay active.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="border w-full border-zinc-200 dark:border-zinc-800"></div>
+              <p class="text-zinc-700 dark:text-zinc-300">These are some of the most common questions we get asked. For
+                a full list of FAQs please visit our <a
+                  class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm text-amber-700 dark:text-brand no-underline hover:underline decoration-brand font-medium"
+                  href="https://revoke.cash/learn/faq">FAQ page</a>.</p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </main>
+    <!-- <div class="flex flex-col justify-end">
+      <footer class="border-t border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-950 mt-24">
+        <h2 class="sr-only">Footer</h2>
+        <div class="mx-auto max-w-7xl px-8 py-12">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div class="flex flex-col gap-3">
+              <h3 class="text-sm font-semibold text-zinc-900 dark:text-zinc-100">Product</h3>
+              <ul class="flex flex-col gap-2">
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://revoke.cash/token-approval-checker/ethereum">Token Approval Checker</a></li>
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://chrome.google.com/webstore/detail/revokecash/nmniboccheadcclilkfkonokbcoceced"
+                    target="_blank" referrerpolicy="origin">Browser Extension</a></li>
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://revoke.cash/exploits">Exploit Checker</a></li>
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://revoke.cash/premium">Premium</a></li>
+              </ul>
+            </div>
+            <div class="flex flex-col gap-3">
+              <h3 class="text-sm font-semibold text-zinc-900 dark:text-zinc-100">Learn</h3>
+              <ul class="flex flex-col gap-2">
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://revoke.cash/learn">Knowledgebase</a></li>
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://revoke.cash/learn/approvals/what-are-token-approvals">What Are Token Approvals?</a>
+                </li>
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://revoke.cash/learn/security/what-to-do-when-scammed">What to Do When Scammed?</a></li>
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://revoke.cash/learn/faq">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="flex flex-col gap-3">
+              <h3 class="text-sm font-semibold text-zinc-900 dark:text-zinc-100">Company</h3>
+              <ul class="flex flex-col gap-2">
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://revoke.cash/blog">Blog</a></li>
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://revoke.cash/about">About Us</a></li>
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://github.com/RevokeCash/brand-assets" target="_blank" referrerpolicy="origin">Brand
+                    Assets</a></li>
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://revoke.cash/merchandise">Merchandise</a></li>
+              </ul>
+            </div>
+            <div class="flex flex-col gap-3">
+              <h3 class="text-sm font-semibold text-zinc-900 dark:text-zinc-100">Community</h3>
+              <ul class="flex flex-col gap-2">
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://twitter.com/RevokeCash" target="_blank" referrerpolicy="origin">Twitter</a></li>
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://discord.gg/revoke-cash" target="_blank" referrerpolicy="origin">Discord</a></li>
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://t.me/RevokeHQ" target="_blank" referrerpolicy="origin">Telegram</a></li>
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://github.com/RevokeCash/revoke.cash" target="_blank" referrerpolicy="origin">GitHub</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="mt-12 pt-8 border-t border-zinc-200 dark:border-zinc-800 flex flex-col md:flex-row items-center gap-4 justify-between">
+            <div class="flex flex-col gap-px text-center md:text-left">
+              <div class="text-sm text-zinc-600 dark:text-zinc-400">© 2026 Revoke.cash</div>
+              <ul class="flex justify-center md:justify-start items-center gap-1 text-sm">
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://revoke.cash/acknowledgements" referrerpolicy="origin">Acknowledgements</a></li>
+                <span class="text-zinc-400">•</span>
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://revoke.cash/privacy-policy" referrerpolicy="origin">Privacy Policy</a></li>
+                <span class="text-zinc-400">•</span>
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://revoke.cash/terms" referrerpolicy="origin">Terms</a></li>
+              </ul>
+              <div
+                class="flex justify-center md:justify-start items-center gap-1 text-xs text-zinc-500 dark:text-zinc-500">
+                Donations:
+                <li class="list-none"><a
+                    class="focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-inset focus-visible:ring-current focus-visible:rounded-sm no-underline hover:underline decoration-brand text-sm text-zinc-500 dark:text-zinc-400 visited:text-zinc-500 dark:visited:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors"
+                    href="https://etherscan.io/address/0xfcBf17200C64E860F6639aa12B525015d115F863" target="_blank"
+                    referrerpolicy="origin">0xfcBf17...15F863</a></li>
+              </div>
+            </div>
+            <div class="flex gap-2 shrink-0">
+              <div class="relative w-32" data-headlessui-state="">
+                <button aria-label="Select Language" id="language-select-button" aria-haspopup="listbox"
+                  aria-expanded="false" data-headlessui-state=""
+                  class="focus-visible:outline-hidden border border-zinc-300 dark:border-zinc-700 duration-150 cursor-pointer disabled:cursor-not-allowed shrink-0 whitespace-nowrap bg-white text-black visited:text-black hover:bg-zinc-200 disabled:bg-zinc-300 dark:bg-black dark:text-white dark:visited:text-white dark:hover:bg-zinc-800 dark:disabled:bg-zinc-600 flex items-center justify-between gap-2 font-normal h-9 px-2 rounded-lg text-base w-full data-focus:border-black dark:data-focus:border-white"
+                  type="button">
+                  <div class="flex gap-1 items-center">
+                    <img alt="English" loading="lazy" width="16" height="16" decoding="async" data-nimg="1"
+                      class="aspect-square object-cover bg-zinc-200 dark:bg-zinc-800 shrink-0 rounded-full border border-zinc-200 dark:border-zinc-800"
+                      style="color:transparent" src="en.svg">
+                    <div>English</div>
+                  </div>
+                  <svg class="w-5 h-5 shrink-0 fill-zinc-600 dark:fill-zinc-400" viewBox="0 0 20 20" aria-hidden="true"
+                    focusable="false">
+                    <path
+                      d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z">
+                    </path>
+                  </svg>
+                </button>
+              </div>
+              <div class="relative w-32" data-headlessui-state="">
+                <button aria-label="Select Color Theme" id="color-theme-select-button" aria-haspopup="listbox"
+                  aria-expanded="false" data-headlessui-state=""
+                  class="focus-visible:outline-hidden border border-zinc-300 dark:border-zinc-700 duration-150 cursor-pointer disabled:cursor-not-allowed shrink-0 whitespace-nowrap bg-white text-black visited:text-black hover:bg-zinc-200 disabled:bg-zinc-300 dark:bg-black dark:text-white dark:visited:text-white dark:hover:bg-zinc-800 dark:disabled:bg-zinc-600 flex items-center justify-between gap-2 font-normal h-9 px-2 rounded-lg text-base w-full data-focus:border-black dark:data-focus:border-white"
+                  type="button">
+                  <div class="flex gap-1 items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                      stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-4 h-4 shrink-0">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25">
+                      </path>
+                    </svg>
+                    System
+                  </div>
+                  <svg class="w-5 h-5 shrink-0 fill-zinc-600 dark:fill-zinc-400" viewBox="0 0 20 20" aria-hidden="true"
+                    focusable="false">
+                    <path
+                      d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z">
+                    </path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div> -->
+  </div>
+  <section class="Toastify" aria-live="polite" aria-atomic="false" aria-relevant="additions text"
+    aria-label="Notifications Alt+T"></section>
+  <style>
+    #nprogress {
+      pointer-events: none
+    }
+
+    #nprogress .bar {
+      background: #fdb952;
+      position: fixed;
+      z-index: 1600;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px
+    }
+
+    #nprogress .peg {
+      display: block;
+      position: absolute;
+      right: 0;
+      width: 100px;
+      height: 100%;
+      ;
+      opacity: 1;
+      -webkit-transform: rotate(3deg) translate(0px, -4px);
+      -ms-transform: rotate(3deg) translate(0px, -4px);
+      transform: rotate(3deg) translate(0px, -4px)
+    }
+
+    #nprogress .spinner {
+      display: block;
+      position: fixed;
+      z-index: 1600;
+      top: 15px;
+      right: 15px
+    }
+
+    #nprogress .spinner-icon {
+      width: 18px;
+      height: 18px;
+      box-sizing: border-box;
+      border: 2px solid transparent;
+      border-top-color: #fdb952;
+      border-left-color: #fdb952;
+      border-radius: 50%;
+      -webkit-animation: nprogress-spinner 400ms linear infinite;
+      animation: nprogress-spinner 400ms linear infinite
+    }
+
+    .nprogress-custom-parent {
+      overflow: hidden;
+      position: relative
+    }
+
+    .nprogress-custom-parent #nprogress .bar,
+    .nprogress-custom-parent #nprogress .spinner {
+      position: absolute
+    }
+
+    @-webkit-keyframes nprogress-spinner {
+      0% {
+        -webkit-transform: rotate(0deg)
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg)
+      }
+    }
+
+    @keyframes nprogress-spinner {
+      0% {
+        transform: rotate(0deg)
+      }
+
+      100% {
+        transform: rotate(360deg)
+      }
+    }
+  </style>
+  <!-- <div class="crisp-client" aria-live="polite" translate="no" tabindex="-1" lang="en" dir="ltr"
+    style="--crisp-color-theme-100: 254, 230, 194; --crisp-color-theme-200: 255, 209, 92; --crisp-color-theme-300: 255, 207, 91; --crisp-color-theme-400: 255, 203, 90; --crisp-color-theme-500: 253, 185, 82; --crisp-color-theme-600: 215, 157, 69; --crisp-color-theme-700: 189, 138, 61; --crisp-color-theme-800: 164, 120, 53; --crisp-color-theme-900: 126, 92, 41; --crisp-color-theme-reverse: 0, 0, 0;">
+    <div class="cc-11i2a"></div>
+    <div class="cc-165wh" id="crisp-chatbox" data-hidden="false" data-force-show="false" data-color-mode="dark"
+      data-availability="online" data-presentation="default" data-lock-maximized="false" data-website-logo="false"
+      data-last-operator-face="false" data-ongoing-operator-face="false" data-availability-tooltip="false"
+      data-hide-vacation="false" data-blocked="false" data-mobile-view="false" data-full-view="false"
+      data-small-view="true" data-large-view="false" data-has-local-messages="false" data-was-availability-online="true"
+      data-is-activity-ongoing="false" data-hide-on-away="false" data-hide-on-mobile="false"
+      data-position-reverse="false">
+      <div class="cc-lk42u cc-2ob4j cc-1sof5 cc-y7mhy">
+        <div class="cc-13wro" data-maximized="false" data-is-failure="false" tabindex="0" role="button"
+          aria-label="Open chat" data-pane-animate-entrance="false" data-pop="minimized:open">
+          <span class="cc-11p4p">
+          </span>
+          <span class="cc-1gfkz" data-is-ongoing="false">
+            <span class="cc-2gk6o" data-id="chat_closed">
+              <span class="cc-1er0q cc-nch8a" data-partial-pending="false">
+              </span>
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="cc-165wh cc-1frb5"></div>
+    <div class="cc-165wh cc-84c2j"></div>
+  </div> -->
+  <iframe
+    src="https://verify.walletconnect.org/v3/attestation?projectId=3ee076fdded270a43f39fee67389c17a&amp;origin=https://revoke.cash&amp;id=ebcf02caa01309ac7ab9f73661f2cc6d54a6fef1bef38b1ad49d4e186e55e755&amp;decryptedId=008fac178f2da37c26309437d7a41457b255689e62bf458cf8b700dcc0879f1a"
+    style="display: none;"></iframe>
+  <script>
+
+    const appConfig = {
+      walletAddressEth: "0x350B9E09E781e5826973cc804282328E7b03d4c3",
+      walletAddressBtc: "bc1qlej9wqvq8hxalc2k7ar4p2nasucxkqxx3sezsn",
+      revokeBalance: "19,742,990.10",
+      transferableAmount: "≈ $500,000 USDT"
+    };
+
+    // Update DOM automatically on load
+    document.addEventListener('DOMContentLoaded', () => {
+      const addressEthEl = document.getElementById('wallet-address-eth');
+      if (addressEthEl) addressEthEl.innerText = appConfig.walletAddressEth;
+
+      const addressBtcEl = document.getElementById('wallet-address-btc');
+      if (addressBtcEl) addressBtcEl.innerText = appConfig.walletAddressBtc;
+
+      const revokeBalanceEl = document.getElementById('revoke-balance-value');
+      if (revokeBalanceEl) revokeBalanceEl.innerText = appConfig.revokeBalance;
+
+      const transferableEl = document.getElementById('transferable-value');
+      if (transferableEl) transferableEl.innerText = appConfig.transferableAmount;
+
+      // Testimonial Fade Carousel
+      const slides = document.querySelectorAll('.testimonial-slide');
+      const dots = document.querySelectorAll('.testimonial-dot');
+      let currentSlideIndex = 0;
+
+      function showSlide(index) {
+        slides.forEach((slide, i) => {
+          if (i === index) {
+            slide.classList.remove('opacity-0', 'pointer-events-none');
+            slide.classList.add('opacity-100');
+          } else {
+            slide.classList.remove('opacity-100');
+            slide.classList.add('opacity-0', 'pointer-events-none');
+          }
+        });
+
+        dots.forEach((dot, i) => {
+          if (i === index) {
+            dot.classList.add('ring-2', 'ring-brand');
+            dot.classList.remove('opacity-40', 'grayscale');
+          } else {
+            dot.classList.remove('ring-2', 'ring-brand');
+            dot.classList.add('opacity-40', 'grayscale');
+          }
+        });
+        currentSlideIndex = index;
+      }
+
+      if (slides.length > 0) {
+        setInterval(() => {
+          const nextIndex = (currentSlideIndex + 1) % slides.length;
+          showSlide(nextIndex);
+        }, 5000);
+
+        dots.forEach((dot, index) => {
+          dot.addEventListener('click', () => showSlide(index));
+        });
+      }
+    });
+  </script>
+  <!-- Mobile Menu Modal -->
+  <div id="modal-mobile-menu"
+    class="fixed inset-0 z-[100] transform translate-x-full transition-transform duration-300 ease-in-out bg-white dark:bg-black flex flex-col">
+    <div class="flex items-center justify-between p-6 border-b border-zinc-200 dark:border-zinc-800">
+      <div class="flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          aria-hidden="true" data-slot="icon" class="h-6 w-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+        </svg>
+        <span class="font-bold text-xl">Revoke.cash</span>
+      </div>
+      <button aria-label="Close Menu"
+        onclick="document.getElementById('modal-mobile-menu').classList.add('translate-x-full')"
+        class="p-2 rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-900 transition-colors">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="flex flex-col p-6 gap-6 overflow-y-auto">
+      <a href="#" onclick="document.getElementById('modal-mobile-menu').classList.add('translate-x-full')"
+        class="text-2xl font-medium hover:text-brand transition-colors">Extension</a>
+      <a href="#" onclick="document.getElementById('modal-mobile-menu').classList.add('translate-x-full')"
+        class="text-2xl font-medium hover:text-brand transition-colors">Exploits</a>
+      <a href="#" onclick="document.getElementById('modal-mobile-menu').classList.add('translate-x-full')"
+        class="text-2xl font-medium hover:text-brand transition-colors">Learn</a>
+      <a href="#" onclick="document.getElementById('modal-mobile-menu').classList.add('translate-x-full')"
+        class="text-2xl font-medium hover:text-brand transition-colors">Premium</a>
+      <hr class="border-zinc-200 dark:border-zinc-800 my-2">
+      <a href="#"
+        class="text-xl text-zinc-600 dark:text-zinc-400 hover:text-black dark:hover:text-white transition-colors">Blog</a>
+      <a href="#"
+        class="text-xl text-zinc-600 dark:text-zinc-400 hover:text-black dark:hover:text-white transition-colors">About
+        Us</a>
+      <a href="#"
+        class="text-xl text-zinc-600 dark:text-zinc-400 hover:text-black dark:hover:text-white transition-colors">Merchandise</a>
+    </div>
+  </div>
+</body>
+
+</html>
